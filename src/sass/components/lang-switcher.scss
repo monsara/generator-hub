@@ -1,0 +1,38 @@
+.lang-switcher {
+  background-color: $white-color;
+
+  &::after {
+    position: absolute;
+    left: 34px;
+    top: 9px;
+
+    display: block;
+    width: 11px;
+    height: 7px;
+
+    @include bg-image('../../images/screen-1_icon-arrow-mobile', 'png');
+
+    content: '';
+  }
+}
+
+.lang-switcher__select {
+  width: 100%;
+  padding-left: 10px;
+  border: 0;
+  border-radius: 12px;
+
+  font-size: 1rem;
+  line-height: 1.9;
+  font-weight: normal;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+
+  @media (min-width: 1920px) {
+    font-size: 0.63636364rem;
+    line-height: 2;
+  }
+}

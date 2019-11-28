@@ -1,0 +1,38 @@
+.input_theme_islands {
+  border-radius: 8px;
+
+  font-family: 'Intro';
+  font-weight: normal;
+
+  background: #ececec;
+}
+
+.input_theme_islands:before {
+  border-radius: 8px;
+  background: #ececec;
+}
+
+.input_theme_islands .input__control {
+  color: transparent;
+  text-shadow: 0 0 0 #717896;
+}
+
+.input_theme_islands .input__control::-webkit-input-placeholder {
+  color: #717896;
+}
+
+.input_theme_islands .input__control::-moz-placeholder {
+  color: #717896;
+}
+
+.input_theme_islands.input_size_m {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.input_theme_islands.input_size_m .input__control {
+  height: 37px;
+  padding: 0 29px;
+
+  text-align: center;
+}

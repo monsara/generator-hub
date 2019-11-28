@@ -1,0 +1,12 @@
+.section__button {
+  @media (min-width: 1920px) {
+    width: 430px;
+    border-radius: 27px;
+
+    font-size: 18px;
+
+    &::before {
+      border-radius: 26px;
+    }
+  }
+}

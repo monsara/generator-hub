@@ -1,0 +1,22 @@
+.page {
+  position: relative;
+}
+
+.page__header {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+
+  transform: translateX(-50%);
+
+  @media (min-width: 1920px) {
+    left: 375px;
+    top: 16px;
+
+    transform: initial;
+  }
+}
+
+.page__screen-1 {
+  position: relative;
+}

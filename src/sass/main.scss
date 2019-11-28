@@ -2,5 +2,21 @@
  * Все паршалы импортировать в этот файл
  */
 
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixins';
+@import 'helpers/extras';
 @import 'normalize.scss';
+@import 'fonts.scss';
 @import 'base.scss';
+
+/* Components */
+@import 'components/page';
+@import 'components/container';
+@import 'components/header';
+@import 'components/lang-switcher';
+@import 'components/bem-components/input.scss';
+@import 'components/bem-components/button.scss';
+@import 'components/section';
+@import 'components/screen-1';
+@import 'components/form';

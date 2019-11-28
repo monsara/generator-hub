@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/Intro-Black/Intro-Black.eot');
+  src: url('../fonts/Intro-Black/Intro-Black.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Intro-Black/Intro-Black.woff2') format('woff2'),
+    url('../fonts/Intro-Black/Intro-Black.woff') format('woff'),
+    url('../fonts/Intro-Black/Intro-Black.ttf') format('truetype'),
+    url('../fonts/Intro-Black/Intro-Black.svg#../fonts/Intro-Black/Intro-Black')
+      format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/Intro-Regular/Intro-Regular.eot');
+  src: url('../fonts/Intro-Regular/Intro-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Intro-Regular/Intro-Regular.woff2') format('woff2'),
+    url('../fonts/Intro-Regular/Intro-Regular.woff') format('woff'),
+    url('../fonts/Intro-Regular/Intro-Regular.ttf') format('truetype'),
+    url('../fonts/Intro-Regular/Intro-Regular.svg#../fonts/Intro-Regular/Intro-Regular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/Intro-Light/Intro-Light.eot');
+  src: url('../fonts/Intro-Light/Intro-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Intro-Light/Intro-Light.woff2') format('woff2'),
+    url('../fonts/Intro-Light/Intro-Light.woff') format('woff'),
+    url('../fonts/Intro-Light/Intro-Light.ttf') format('truetype'),
+    url('../fonts/Intro-Light/Intro-Light.svg#../fonts/Intro-Light/Intro-Light')
+      format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../fonts/Intro-Bold/Intro-Bold.eot');
+  src: url('../fonts/Intro-Bold/Intro-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Intro-Bold/Intro-Bold.woff2') format('woff2'),
+    url('../fonts/Intro-Bold/Intro-Bold.woff') format('woff'),
+    url('../fonts/Intro-Bold/Intro-Bold.ttf') format('truetype'),
+    url('../fonts/Intro-Bold/Intro-Bold.svg#../fonts/Intro-Bold/Intro-Bold')
+      format('svg');
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,38 @@
+<header class="header page__header">
+  <div class="header__content container">
+    <h1 class="header__title visually-hidden">Page header</h1>
+
+    <div class="header__content-group">
+      <p class="header__telephone">(+373) 79 02 50 25</p>
+
+      <span class="lang-switcher header__lang-switcher custom-dropdown">
+        <select class="lang-switcher__select">
+          <option class="lang-switcher__language">Ru</option>
+          <option class="lang-switcher__language">Ua</option>
+          <option class="lang-switcher__language">En</option>
+        </select>
+      </span>
+    </div>
+
+    <picture class="logo header__logo">
+      <source
+        media="(min-width: 1920px)"
+        srcset="
+          ./images/screen-1_logo-desktop.png,
+          ./images/screen-1_logo-desktop@2x.png 2x,
+          ./images/screen-1_logo-desktop@3x.png 3x
+        "
+      />
+      <img
+        class="image"
+        src="./images/screen-1_logo-mobile.png"
+        alt="Logo image"
+        srcset="
+          ./images/screen-1_logo-mobile.png,
+          ./images/screen-1_logo-mobile@2x.png 2x,
+          ./images/screen-1_logo-mobile@3x.png 3x
+        "
+      />
+    </picture>
+  </div>
+</header>

@@ -4,15 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Placeholder title</title>
+    <title>Generator Hub</title>
+
+    <link
+      rel="stylesheet"
+      href="https://yastatic.net/bem-components/latest/desktop/bem-components.css"
+    />
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
     <!-- endinject -->
   </head>
 
-  <body>
+  <body class="page">
+    <!-- HEADER -->
+    //= html/header.html
+
+    <main class="main-content">
+      <h1 class="visually-hidden">Generator hub main page</h1>
+
+      <!-- SCREEN-1 SECTION -->
+      //= html/screen-1.html
+
+      <!-- LANG SWI~TCHER -->
+      <!-- //= html/lang-switcher.html -->
+    </main>
     <!-- Сюда будет всталена ссылка на файл скриптов -->
     <!-- inject:js -->
     <!-- endinject -->
+    <script src="https://yastatic.net/bem-components/latest/desktop/bem-components.js+bemhtml.js"></script>
   </body>
 </html>

@@ -1,0 +1,59 @@
+.form {
+  text-align: center;
+}
+
+.form__title,
+.form__text {
+  margin: 0;
+
+  font-size: 1.14285714rem;
+  font-size: 1rem;
+  line-height: 19px;
+  font-weight: 300;
+
+  color: #0c194f;
+
+  &_bold {
+    font-weight: bold;
+  }
+
+  &_uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.form__title {
+  margin-top: 73px;
+  margin-bottom: 9px;
+}
+
+.form__text {
+  margin-bottom: 16px;
+}
+
+.form__list {
+  @extend %list;
+}
+
+.form__item {
+  margin-bottom: 8px;
+
+  &:nth-child(3n) {
+    margin-bottom: 17px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form__control {
+  width: 261px;
+
+  font-size: 1.14285714rem;
+  line-height: 1.2;
+}
+
+.form__input {
+  height: 37px;
+}
