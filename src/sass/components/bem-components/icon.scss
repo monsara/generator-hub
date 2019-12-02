@@ -1,0 +1,7 @@
+.icon_scroll {
+  @include bg-image('../../../images/icons/mouse-wheel-mobile', 'png');
+
+  @media (min-width: 1920px) {
+    @include bg-image('../../../images/icons/mouse-wheel-desktop', 'png');
+  }
+}

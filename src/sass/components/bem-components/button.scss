@@ -4,40 +4,75 @@
   text-transform: uppercase;
 }
 
-.button_theme_islands.button_view_form {
+.button_theme_islands.button_form {
   border-radius: 21px;
 }
 
-.button_theme_islands.button_view_form:before {
+.button_theme_islands.button_form:before {
   border-radius: 20px;
 }
 
-.button_color_blue {
+.button_theme_islands.button_form.button_size_m {
+  line-height: 43px;
+}
+
+.button_theme_islands.button_scroll {
   color: $white-color;
+}
+
+.button_theme_islands.button_scroll:before {
+  color: $white-color;
+  box-shadow: initial;
+}
+
+.button_theme_islands.button_scroll.button_hovered:before {
+  box-shadow: initial;
+}
+
+.button_theme_islands.button_scroll .button__text {
+  display: block;
+}
+
+.button_theme_islands.button_scroll.button_size_m {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.button_theme_islands.button_scroll.button_size_m .icon {
+  width: 20px;
+
+  @media (min-width: 1920px) {
+    width: 27px;
+  }
+}
+
+.button_theme_islands.button_color_blue {
+  color: $white-color;
+  background: transparent;
+  transition: background 0.2s linear;
+}
+
+.button_theme_islands.button_color_blue:before {
+  background: #3294dc;
+}
+
+.button_theme_islands.button_color_blue.button_hovered {
   background: transparent;
 }
 
-.button_color_blue:before {
-  background: #1375bd;
+.button_theme_islands.button_color_blue.button_hovered:before {
+  background: darken(#3294dc, 10%);
 }
 
-.button_color_blue.button_hovered {
-  background: #1375bd;
-}
-
-.button_color_blue.button_pressed:before {
-  background: darken(#1375bd, 10%);
+.button_theme_islands.button_color_blue.button_pressed:before {
+  background: darken(#3294dc, 10%);
 }
 
 .button_theme_islands.button_size_m {
   font-size: 16px;
 }
 
-.button_theme_islands.button_view_section.button_size_m {
+.button_theme_islands.button_section.button_size_m {
   font-size: 18px;
   line-height: 54px;
-}
-
-.button_theme_islands.button_view_form.button_size_m {
-  line-height: 43px;
 }

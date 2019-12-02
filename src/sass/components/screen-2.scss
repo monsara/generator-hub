@@ -1,0 +1,123 @@
+.screen-2 {
+  width: 100%;
+  height: 480px;
+
+  text-align: center;
+
+  @include bg-image('../../images/screen-2_bg-img-mobile');
+
+  @media (min-width: 1920px) {
+    height: 585px;
+
+    @include bg-image('../../images/screen-2_bg-img-desktop');
+  }
+}
+
+.screen-2__title {
+  padding-top: 43px;
+  margin-bottom: 17px;
+
+  font-size: 2.28571429rem;
+  line-height: 1.2;
+  font-weight: bold;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 38px;
+    padding-top: 173px;
+
+    font-size: 2.72727273rem;
+
+    @include bg-image('../../images/screen-2_bg-img-desktop');
+  }
+}
+
+.screen-2__list {
+  display: inline-block;
+
+  font-size: 1.14285714rem;
+  line-height: 1.2;
+  font-weight: normal;
+
+  @media (min-width: 1920px) {
+    display: flex;
+    width: 630px;
+    margin: auto;
+    margin-bottom: 54px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 0.72727273rem;
+  }
+}
+
+.screen-2__item {
+  display: flex;
+  width: 210px;
+  height: 68px;
+  margin-bottom: -3px;
+  padding-left: 17px;
+
+  justify-content: center;
+  align-items: center;
+
+  @include bg-image('../images/screen-2_item-bg-img', 'png', $pos: 5px center);
+
+  &:last-child {
+    margin-bottom: 28px;
+  }
+
+  @media (min-width: 1920px) {
+    margin-bottom: initial;
+    padding-left: 20px;
+
+    &:last-child {
+      margin-bottom: initial;
+    }
+  }
+}
+
+.screen-2__read-more {
+  margin: 0;
+  margin-bottom: 17px;
+
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 900;
+
+  color: $white-color;
+  text-transform: uppercase;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 30px;
+
+    font-size: 0.81818182rem;
+  }
+}
+
+.screen-2__scroll-button {
+  animation: scroll-flicker 1s linear;
+  animation-iteration-count: infinite;
+
+  @keyframes scroll-flicker {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(3px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
+.screen-2__scroll-icon {
+  height: 60px;
+
+  @media (min-width: 1920px) {
+    height: 77px;
+  }
+}
