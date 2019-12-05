@@ -1,0 +1,13 @@
+.time-counter__item {
+  height: 49px;
+  border-radius: 6px;
+
+  flex: 0 0 68px;
+
+  background-color: #aa2d51;
+
+  @media (min-width: 1920px) {
+    height: 95px;
+    flex: 0 0 132px;
+  }
+}

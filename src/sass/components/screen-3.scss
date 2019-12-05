@@ -1,0 +1,148 @@
+.screen-3__content {
+  @media (min-width: 1920px) {
+    position: relative;
+  }
+}
+
+.screen-3__title {
+  @media (min-width: 1920px) {
+    text-align: initial;
+  }
+}
+
+.screen-3__list {
+  margin-bottom: 16px;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 62px;
+  }
+}
+
+.screen-3__item {
+  position: relative;
+
+  padding-left: 28px;
+
+  @media (min-width: 1920px) {
+    display: block;
+    margin-bottom: 16px;
+    padding-left: 42px;
+    text-align: initial;
+  }
+}
+
+.screen-3__icon {
+  &::before {
+    position: absolute;
+    top: 7px;
+
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    content: '';
+
+    @media (min-width: 1920px) {
+      top: 1px;
+    }
+  }
+
+  &_location::before {
+    left: 3px;
+
+    width: 10px;
+    height: 16px;
+
+    @media (min-width: 1920px) {
+      left: 5px;
+
+      width: 16px;
+      height: 26px;
+    }
+  }
+
+  &_bus::before {
+    top: 8px;
+    left: 2px;
+
+    width: 13px;
+    height: 16px;
+
+    @media (min-width: 1920px) {
+      left: 4px;
+      top: 2px;
+
+      width: 20px;
+      height: 23px;
+    }
+  }
+
+  &_food::before {
+    left: 0;
+    top: 11px;
+
+    width: 16px;
+    height: 10px;
+
+    @media (min-width: 1920px) {
+      lleft: 2px;
+      top: 7px;
+
+      width: 24px;
+      height: 15px;
+    }
+  }
+
+  &_padlock::before,
+  &_tree::before {
+    left: 5px;
+    top: 4px;
+  }
+
+  &_padlock::before {
+    left: 2px;
+    top: 9px;
+
+    width: 12px;
+    height: 14px;
+
+    @media (min-width: 1920px) {
+      left: 5px;
+      top: 4px;
+
+      width: 18px;
+      height: 22px;
+    }
+  }
+
+  &_tree::before {
+    left: 1px;
+    top: 9px;
+
+    width: 14px;
+    height: 14px;
+
+    @media (min-width: 1920px) {
+      left: 3px;
+      top: 3px;
+
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+
+.screen-3__time-counter {
+  display: flex;
+  width: 100%;
+  margin-top: 267px;
+
+  justify-content: space-between;
+
+  @media (min-width: 1920px) {
+    width: 571px;
+    margin-top: initial;
+  }
+}

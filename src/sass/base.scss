@@ -3,6 +3,7 @@ html {
   min-height: 100%;
 
   font-size: 14px;
+  line-height: 30.54px;
 
   @media (min-width: 1920px) {
     font-size: 22px;
@@ -28,10 +29,4 @@ body {
     max-width: 1920px;
     margin: auto;
   }
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }

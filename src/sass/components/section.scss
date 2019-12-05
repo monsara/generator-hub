@@ -1,8 +1,24 @@
+.section {
+  &_white {
+    background-color: $white-color;
+  }
+}
+
 .section__title {
   margin: 0;
+  margin-bottom: 11px;
+  padding-top: 34px;
 
   font-size: 2.28571429rem;
   line-height: 1.2;
+  font-weight: 300;
+
+  text-align: center;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 54px;
+    padding-top: 131px;
+  }
 }
 
 .section__button {
@@ -15,5 +31,21 @@
     &::before {
       border-radius: 26px;
     }
+  }
+}
+
+.section__map {
+  position: absolute;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  @media (min-width: 1920px) {
+    position: absolute;
+    left: initial;
+    top: 138px;
+    right: -38px;
+
+    transform: initial;
   }
 }
