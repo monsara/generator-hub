@@ -1,32 +1,31 @@
-.screen-3__content {
+.screen-4__content {
   @media (min-width: 1920px) {
     position: relative;
   }
 }
 
-.screen-3__title {
-  margin-bottom: 18px;
+.screen-4__title {
+  margin-bottom: 45px;
+  padding-top: 36px;
 
   @media (min-width: 1920px) {
-    margin-bottom: 44px;
+    margin-bottom: 52px;
     padding-top: 130px;
 
-    font-size: 52px;
-    line-height: 62px;
+    font-size: 55px;
+    line-height: 66px;
     text-align: initial;
   }
 }
 
-.screen-3__list {
-  margin-bottom: 4px;
-
+.screen-4__list {
   @media (min-width: 1920px) {
     width: 571px;
-    margin-bottom: 51px;
+    margin-bottom: 34px;
   }
 }
 
-.screen-3__item {
+.screen-4__item {
   position: relative;
 
   margin-bottom: 15px;
@@ -36,15 +35,16 @@
 
   @media (min-width: 1920px) {
     display: block;
-    margin-bottom: 1px;
+    margin-bottom: 16px;
     padding-left: 42px;
 
-    line-height: 46.01px;
+    line-height: 29px;
+
     text-align: initial;
   }
 }
 
-.screen-3__icon {
+.screen-4__icon {
   &::before {
     position: absolute;
 
@@ -53,59 +53,58 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    filter: invert(1);
 
     content: '';
-
-    @media (min-width: 1920px) {
-      top: 9px;
-    }
   }
 
-  &_location::before {
+  &_internet::before {
     left: 3px;
 
-    width: 10px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
 
     @media (min-width: 1920px) {
-      left: 5px;
+      left: 1px;
+      top: -1px;
 
-      width: 16px;
-      height: 26px;
+      width: 24px;
+      height: 24px;
     }
   }
 
-  &_bus::before {
+  &_desc-lamp::before {
     left: 2px;
 
-    width: 13px;
-    height: 16px;
-
-    @media (min-width: 1920px) {
-      left: 4px;
-
-      width: 20px;
-      height: 23px;
-    }
-  }
-
-  &_food::before {
-    left: 0;
-    top: 2px;
-
-    width: 16px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
 
     @media (min-width: 1920px) {
       left: 2px;
-      top: 13px;
+      top: -2px;
 
-      width: 24px;
-      height: 15px;
+      width: 25px;
+      height: 25px;
     }
   }
 
-  &_padlock::before {
+  &_hand-shake:before {
+    left: 1px;
+    top: 0;
+
+    width: 15px;
+    height: 13px;
+
+    @media (min-width: 1920px) {
+      left: 2px;
+      top: 2px;
+
+      width: 24px;
+      height: 20px;
+    }
+  }
+
+  &_phone-booth::before {
     left: 2px;
     top: -1px;
 
@@ -113,15 +112,15 @@
     height: 14px;
 
     @media (min-width: 1920px) {
-      left: 5px;
-      top: 8px;
+      left: 7px;
+      top: 2px;
 
-      width: 18px;
-      height: 22px;
+      width: 15px;
+      height: 25px;
     }
   }
 
-  &_tree::before {
+  &_printer::before {
     left: 1px;
     top: -2px;
 
@@ -130,7 +129,7 @@
 
     @media (min-width: 1920px) {
       left: 3px;
-      top: 6px;
+      top: 3px;
 
       width: 22px;
       height: 22px;
@@ -138,10 +137,10 @@
   }
 }
 
-.screen-3__time-counter {
+.screen-4__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 255px;
+  margin-top: 250px;
 
   justify-content: space-between;
 

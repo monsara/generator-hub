@@ -2,11 +2,21 @@
   &_white {
     background-color: $white-color;
   }
+  &_dark {
+    color: $white-color;
+    background-color: $primary-accent-color;
+  }
+}
+
+.section__content {
+  @media (min-width: 1920px) {
+    position: relative;
+  }
 }
 
 .section__title {
   margin: 0;
-  margin-bottom: 11px;
+  margin-bottom: 18px;
   padding-top: 34px;
 
   font-size: 2.28571429rem;
@@ -34,9 +44,9 @@
   }
 }
 
-.section__map {
+.section__image {
   position: absolute;
-  left: 50%;
+  left: 51%;
 
   transform: translateX(-50%);
 
@@ -44,7 +54,7 @@
     position: absolute;
     left: initial;
     top: 138px;
-    right: -38px;
+    right: -40px;
 
     transform: initial;
   }

@@ -30,12 +30,13 @@
   }
 }
 
-$icons: location, bus, food, padlock, tree;
+$icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
+  phone-booth, printer;
 
 @include generate-pseudo-icons(
   'icon_',
   $icons,
-  '../../../images/icons/screen-3/icon-',
+  '../../../images/icons/icon-',
   '-mobile',
   'png'
 );
@@ -44,7 +45,7 @@ $icons: location, bus, food, padlock, tree;
   @include generate-pseudo-icons(
     'icon_',
     $icons,
-    '../../../images/icons/screen-3/icon-',
+    '../../../images/icons/icon-',
     '-desktop',
     'png'
   );

@@ -20,3 +20,19 @@
 .page__screen-1 {
   position: relative;
 }
+
+.page__screen-3 {
+  height: 586px;
+
+  @media (min-width: 1920px) {
+    height: 750px;
+  }
+}
+
+.page__screen-4 {
+  height: 655px;
+
+  @media (min-width: 1920px) {
+    height: 750px;
+  }
+}
