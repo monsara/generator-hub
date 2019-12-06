@@ -6,6 +6,7 @@
 
 .screen-3__title {
   margin-bottom: 18px;
+  padding-top: 34px;
 
   @media (min-width: 1920px) {
     margin-bottom: 44px;
@@ -27,15 +28,7 @@
 }
 
 .screen-3__item {
-  position: relative;
-
-  margin-bottom: 15px;
-  padding-left: 28px;
-
-  text-align: initial;
-
   @media (min-width: 1920px) {
-    display: block;
     margin-bottom: 1px;
     padding-left: 42px;
 
@@ -46,16 +39,6 @@
 
 .screen-3__icon {
   &::before {
-    position: absolute;
-
-    display: inline-block;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    content: '';
-
     @media (min-width: 1920px) {
       top: 9px;
     }

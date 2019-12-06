@@ -5,8 +5,8 @@
 }
 
 .screen-5__title {
-  margin-bottom: 40px;
-  padding-top: 36px;
+  margin-bottom: 41px;
+  padding-top: 35px;
 
   @media (min-width: 1920px) {
     margin-bottom: 50px;
@@ -28,16 +28,9 @@
 }
 
 .screen-5__item {
-  position: relative;
-
-  margin-bottom: 15px;
-  padding-left: 28px;
-
   line-height: 15px;
-  text-align: initial;
 
   @media (min-width: 1920px) {
-    display: block;
     margin-bottom: 16px;
     padding-left: 42px;
 
@@ -48,18 +41,6 @@
 }
 
 .screen-5__icon {
-  &::before {
-    position: absolute;
-
-    display: inline-block;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    content: '';
-  }
-
   &_bulb::before {
     left: 2px;
     top: -2px;

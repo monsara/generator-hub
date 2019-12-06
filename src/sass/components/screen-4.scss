@@ -26,16 +26,8 @@
 }
 
 .screen-4__item {
-  position: relative;
-
-  margin-bottom: 15px;
-  padding-left: 28px;
-
-  text-align: initial;
-
   @media (min-width: 1920px) {
-    display: block;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
     padding-left: 42px;
 
     line-height: 29px;
@@ -46,16 +38,7 @@
 
 .screen-4__icon {
   &::before {
-    position: absolute;
-
-    display: inline-block;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     filter: invert(1);
-
-    content: '';
   }
 
   &_internet::before {

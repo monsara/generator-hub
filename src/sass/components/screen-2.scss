@@ -14,17 +14,16 @@
 }
 
 .screen-2__title {
-  padding-top: 43px;
   margin-bottom: 17px;
-
-  font-size: 2.28571429rem;
-  font-weight: bold;
+  padding-top: 43px;
 
   @media (min-width: 1920px) {
-    margin-bottom: 38px;
-    padding-top: 173px;
+    margin-bottom: 55px;
+    padding-top: 190px;
 
     font-size: 2.72727273rem;
+
+    text-align: center;
   }
 }
 
@@ -50,10 +49,11 @@
 
 .screen-2__item {
   display: flex;
-  width: 210px;
   height: 68px;
   margin-bottom: -3px;
   padding-left: 17px;
+
+  flex: 0 0 210px;
 
   justify-content: center;
   align-items: center;
@@ -66,10 +66,14 @@
 
   @media (min-width: 1920px) {
     margin-bottom: initial;
-    // padding-left: 20px;
     transform: translateX(-15px);
 
-    &:last-child {
+    &:nth-child(2) {
+      transform: translateX(-7px);
+    }
+
+    &:nth-child(3) {
+      transform: translateX(13px);
       margin-bottom: initial;
     }
   }
