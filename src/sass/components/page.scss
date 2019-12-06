@@ -36,3 +36,11 @@
     height: 750px;
   }
 }
+
+.page__screen-5 {
+  height: 637px;
+
+  @media (min-width: 1920px) {
+    height: 750px;
+  }
+}

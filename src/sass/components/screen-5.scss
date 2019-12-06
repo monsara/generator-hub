@@ -1,15 +1,15 @@
-.screen-4__content {
+.screen-5__content {
   @media (min-width: 1920px) {
     position: relative;
   }
 }
 
-.screen-4__title {
-  margin-bottom: 45px;
+.screen-5__title {
+  margin-bottom: 40px;
   padding-top: 36px;
 
   @media (min-width: 1920px) {
-    margin-bottom: 52px;
+    margin-bottom: 50px;
     padding-top: 130px;
 
     font-size: 55px;
@@ -18,19 +18,22 @@
   }
 }
 
-.screen-4__list {
+.screen-5__list {
+  margin-bottom: 12px;
+
   @media (min-width: 1920px) {
     width: 571px;
-    margin-bottom: 34px;
+    margin-bottom: 36px;
   }
 }
 
-.screen-4__item {
+.screen-5__item {
   position: relative;
 
   margin-bottom: 15px;
   padding-left: 28px;
 
+  line-height: 15px;
   text-align: initial;
 
   @media (min-width: 1920px) {
@@ -44,7 +47,7 @@
   }
 }
 
-.screen-4__icon {
+.screen-5__icon {
   &::before {
     position: absolute;
 
@@ -53,96 +56,95 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    filter: invert(1);
 
     content: '';
   }
 
-  &_internet::before {
-    top: -1px;
+  &_bulb::before {
+    left: 2px;
+    top: -2px;
+
+    width: 12px;
+    height: 16px;
+
+    @media (min-width: 1920px) {
+      left: 4px;
+      top: -1px;
+
+      width: 18px;
+      height: 27px;
+    }
+  }
+
+  &_vacuum-cleaner::before {
     left: 1px;
+    top: -4px;
 
     width: 15px;
-    height: 15px;
+    height: 16px;
 
     @media (min-width: 1920px) {
       left: 1px;
       top: -1px;
 
-      width: 24px;
+      width: 26px;
+      height: 26px;
+    }
+  }
+
+  &_student:before {
+    left: 0px;
+    top: -2px;
+
+    width: 16px;
+    height: 13px;
+
+    @media (min-width: 1920px) {
+      left: -1px;
+      top: 5px;
+
+      width: 26px;
+      height: 21px;
+    }
+  }
+
+  &_calendar::before {
+    left: 3px;
+    top: -2px;
+
+    width: 14px;
+    height: 16px;
+
+    @media (min-width: 1920px) {
+      left: 4px;
+      top: 4px;
+
+      width: 21px;
       height: 24px;
     }
   }
 
-  &_desc-lamp::before {
-    left: 1px;
-    top: -2px;
-
-    width: 15px;
-    height: 15px;
-
-    @media (min-width: 1920px) {
-      left: -1px;
-      top: -3px;
-
-      width: 25px;
-      height: 25px;
-    }
-  }
-
-  &_hand-shake:before {
+  &_cup::before {
     left: 2px;
-    top: -2px;
+    top: -1px;
 
-    width: 15px;
-    height: 13px;
+    width: 16px;
+    height: 11px;
 
     @media (min-width: 1920px) {
       left: 0;
-      top: 1px;
+      top: 6px;
 
-      width: 24px;
+      width: 26px;
       height: 20px;
-    }
-  }
-
-  &_phone-booth::before {
-    left: 2px;
-    top: -3px;
-
-    width: 12px;
-    height: 14px;
-
-    @media (min-width: 1920px) {
-      left: 4px;
-      top: 1px;
-
-      width: 15px;
-      height: 25px;
-    }
-  }
-
-  &_printer::before {
-    left: 1px;
-    top: -4px;
-
-    width: 14px;
-    height: 14px;
-
-    @media (min-width: 1920px) {
-      left: 0;
-      top: 2px;
-
-      width: 24px;
-      height: 23px;
     }
   }
 }
 
-.screen-4__time-counter {
+.screen-5__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 263px;
 
   justify-content: space-between;
 
