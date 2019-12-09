@@ -31,7 +31,8 @@
 }
 
 $icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
-  phone-booth, printer, bulb, vacuum-cleaner, student, calendar, cup;
+  phone-booth, printer, bulb, vacuum-cleaner, student, calendar, cup, coctail,
+  office, conference, teapot;
 
 @include generate-pseudo-icons(
   'icon_',

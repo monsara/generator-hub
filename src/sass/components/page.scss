@@ -60,3 +60,12 @@
     height: 587px;
   }
 }
+
+.page__screen-7 {
+  width: 100%;
+  height: 615px;
+
+  @media (min-width: 1920px) {
+    height: 750px;
+  }
+}
