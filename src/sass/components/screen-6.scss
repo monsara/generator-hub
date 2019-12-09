@@ -1,0 +1,53 @@
+.screen-6 {
+  text-align: center;
+
+  @include bg-image('../../images/screen-6_bg-img-mobile');
+
+  @media (min-width: 1920px) {
+    @include bg-image('../../images/screen-6_bg-img-desktop');
+  }
+}
+
+.screen-6__title {
+  margin-bottom: 13px;
+  padding-top: 67px;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 14px;
+    padding-top: 143px;
+
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+  }
+}
+
+.screen-6__text {
+  margin: 0;
+  margin-bottom: 41px;
+
+  font-size: 19.8px;
+  line-height: 24px;
+
+  @media (min-width: 1920px) {
+    margin-bottom: 62px;
+
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+  }
+}
+
+.screen-6 .screen__title_style_2 {
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.screen-6__button {
+  width: 296px;
+
+  @media (min-width: 1920px) {
+    width: 430px;
+  }
+}

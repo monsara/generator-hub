@@ -19,13 +19,20 @@
 
 .page__screen-1 {
   position: relative;
+
+  width: 100%;
+  height: 524px;
+
+  @media (min-width: 1920px) {
+    height: 686px;
+  }
 }
 
 .page__screen-3 {
   height: 586px;
 
   @media (min-width: 1920px) {
-    height: 750px;
+    height: 749px;
   }
 }
 
@@ -33,14 +40,23 @@
   height: 655px;
 
   @media (min-width: 1920px) {
-    height: 750px;
+    height: 751px;
   }
 }
 
 .page__screen-5 {
-  height: 637px;
+  height: 636px;
 
   @media (min-width: 1920px) {
-    height: 750px;
+    height: 748px;
+  }
+}
+
+.page__screen-6 {
+  width: 100%;
+  height: 349px;
+
+  @media (min-width: 1920px) {
+    height: 587px;
   }
 }

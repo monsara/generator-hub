@@ -68,6 +68,29 @@
   background: darken(#3294dc, 10%);
 }
 
+.button_theme_islands.button_color_white {
+  color: $primary-text-color;
+  background: transparent;
+  box-shadow: 0px 28px 57px 0px rgba(0, 0, 0, 0.62);
+  transition: background 0.2s linear;
+}
+
+.button_theme_islands.button_color_white:before {
+  background: $white-color;
+}
+
+.button_theme_islands.button_color_white.button_hovered {
+  background: transparent;
+}
+
+.button_theme_islands.button_color_white.button_hovered:before {
+  background: darken($white-color, 10%);
+}
+
+.button_theme_islands.button_color_white.button_pressed:before {
+  background: darken($white-color, 10%);
+}
+
 .button_theme_islands.button_size_m {
   font-size: 16px;
 }
@@ -75,4 +98,30 @@
 .button_theme_islands.button_screen.button_size_m {
   font-size: 18px;
   line-height: 54px;
+}
+
+.button_theme_islands.button_screen-6 {
+  border-radius: 19px;
+
+  @media (min-width: 1920px) {
+    border-radius: 27px;
+  }
+}
+
+.button_theme_islands.button_screen-6:before {
+  border-radius: 18px;
+
+  @media (min-width: 1920px) {
+    border-radius: 26px;
+  }
+}
+
+.button_theme_islands.button_screen-6.button_size_m {
+  font-size: 13px;
+  line-height: 38px;
+
+  @media (min-width: 1920px) {
+    font-size: 18px;
+    line-height: 54px;
+  }
 }
