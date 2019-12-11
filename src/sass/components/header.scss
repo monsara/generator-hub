@@ -39,14 +39,16 @@
 .header__telephone {
   margin: 0;
 
-  font-size: 1.28571429rem;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: bold;
 
   color: $white-color;
 
   @media (min-width: 1920px) {
-    font-size: 1.22727273rem;
+    padding-top: 4px;
+
+    font-size: 27px;
   }
 }
 
