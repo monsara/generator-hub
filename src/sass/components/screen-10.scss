@@ -1,5 +1,9 @@
 .screen-10 {
   text-align: center;
+
+  @media (min-width: 1920px) {
+    @include bg-image('../../images/screen-10_bg-img');
+  }
 }
 
 .screen-10__title {

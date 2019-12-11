@@ -1,0 +1,25 @@
+.screen-11__gallary {
+  display: none;
+
+  @media (min-width: 1920px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.screen-11__gallary-item {
+  @media (min-width: 1920px) {
+    background-color: $secondary-accent-color;
+  }
+}
+
+.screen-11__gallary-image {
+  @media (min-width: 1920px) {
+    cursor: pointer;
+    transition: filter 0.2s linear;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
