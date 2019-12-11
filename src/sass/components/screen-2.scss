@@ -20,10 +20,11 @@
   padding-top: 43px;
 
   @media (min-width: 1920px) {
-    margin-bottom: 55px;
-    padding-top: 190px;
+    margin-bottom: 37px;
+    padding-top: 172px;
 
-    font-size: 2.72727273rem;
+    font-size: 60px;
+    line-height: 72px;
 
     text-align: center;
   }
@@ -32,20 +33,18 @@
 .screen-2__list {
   display: inline-block;
 
-  font-size: 1.14285714rem;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 19px;
   font-weight: normal;
 
   @media (min-width: 1920px) {
     display: flex;
     width: 630px;
     margin: auto;
-    margin-bottom: 54px;
+    margin-bottom: 55px;
 
     justify-content: space-between;
     align-items: center;
-
-    font-size: 0.72727273rem;
   }
 }
 
@@ -63,7 +62,7 @@
   @include bg-image('../images/screen-2_item-bg-img', 'png', $pos: 5px center);
 
   &:last-child {
-    margin-bottom: 28px;
+    margin-bottom: 27px;
   }
 
   @media (min-width: 1920px) {
@@ -85,8 +84,8 @@
   margin: 0;
   margin-bottom: 17px;
 
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 17px;
   font-weight: 900;
 
   color: $white-color;
@@ -95,7 +94,8 @@
   @media (min-width: 1920px) {
     margin-bottom: 30px;
 
-    font-size: 0.81818182rem;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
