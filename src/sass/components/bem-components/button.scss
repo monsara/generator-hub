@@ -2,6 +2,12 @@
   font-family: 'Intro';
   font-weight: bold;
   text-transform: uppercase;
+
+  transition: all 0.2s linear;
+}
+
+.button_theme_islands::before {
+  transition: all 0.2s linear;
 }
 
 .button_theme_islands.button_form {
@@ -124,4 +130,105 @@
     font-size: 18px;
     line-height: 54px;
   }
+}
+
+.button_theme_islands.button_screen-10 {
+  background: #7b8290;
+  letter-spacing: 1px;
+}
+
+.button_theme_islands.button_screen-10.button_checked {
+  color: $white-color;
+  background: #091632;
+}
+
+.button_theme_islands.button_screen-10:before {
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+}
+
+.button_theme_islands.button_screen-10.button_hovered:before {
+  background: darken($white-color, 10%);
+}
+
+.button_theme_islands.button_screen-10.button_checked:before {
+  background: #091632;
+}
+
+.button_theme_islands.button_checked.button_focused-hard.button:before {
+  box-shadow: initial;
+}
+
+.button_theme_islands.button_checked.button_focused-hard.button {
+  box-shadow: 0 0 0 1px #fc0, inset 0 0 0 1px #fc0;
+}
+
+.button_theme_islands.button_screen-10.button_size_m {
+  font-size: 10.29px;
+  line-height: 36px;
+
+  @media (min-width: 1920px) {
+    font-size: 12px;
+    line-height: 42px;
+  }
+}
+
+.button_theme_islands.button_subscription-card {
+  letter-spacing: 2px;
+}
+
+.button_theme_islands.button_subscription-card.button_size_m {
+  font-size: 14px;
+  line-height: 46.9px;
+
+  @media (min-width: 1920px) {
+    line-height: 50px;
+  }
+}
+
+.button_theme_islands.button_subscription-card {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.button_theme_islands.button_subscription-card::before {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.button_theme_islands.button_color_blue.button_subscription-card {
+  background: $tertiary-accent-color;
+}
+
+.button_theme_islands.button_color_blue.button_subscription-card.button_hovered:before {
+  background: darken($tertiary-accent-color, 10%);
+}
+
+.button_theme_islands.button_color_blue.button_subscription-card.button_pressed:before {
+  background: darken($tertiary-accent-color, 10%);
+}
+
+.button_theme_islands.button_color_dark-blue.button_subscription-card {
+  color: $white-color;
+}
+
+.button_theme_islands.button_color_dark-blue.button_subscription-card {
+  background: darken($tertiary-accent-color, 10%);
+}
+
+.button_theme_islands.button_color_dark-blue.button_subscription-card::before {
+  background: darken($tertiary-accent-color, 10%);
+}
+
+.button_theme_islands.button_color_dark-blue.button_subscription-card.button_hovered:before {
+  background: darken($tertiary-accent-color, 15%);
+}
+
+.button_theme_islands.button_color_dark-blue.button_subscription-card.button_pressed:before {
+  background: darken($tertiary-accent-color, 15%);
 }

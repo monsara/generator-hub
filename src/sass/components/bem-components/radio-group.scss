@@ -1,0 +1,29 @@
+.radio-group_theme_islands {
+  // Remove right margin from an inline-block
+  font-size: 0;
+}
+
+.control-group > .button_theme_islands.button_screen-10:first-child,
+.control-group > :first-child .button_theme_islands.button_screen-10,
+.control-group > :first-child.popup + .button_theme_islands.button_screen-10 {
+  border-radius: 18px 0 0 18px;
+}
+
+.control-group > .button_theme_islands.button_screen-10:first-child:before,
+.control-group > :first-child .button_theme_islands.button_screen-10:before,
+.control-group
+  > :first-child.popup
+  + .button_theme_islands.button_screen-10:before {
+  border-radius: 17px 0 0 17px;
+}
+
+.control-group > .button_theme_islands.button_screen-10:last-child,
+.control-group > :last-child .button_theme_islands.button_screen-10 {
+  border-radius: 0 18px 18px 0;
+}
+
+.control-group > .button_theme_islands.button_screen-10:last-child:before,
+.control-group > :last-child .button_theme_islands.button_screen-10:before {
+  border-radius: 0 17px 17px 0;
+  right: 2px;
+}
