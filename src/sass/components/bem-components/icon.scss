@@ -23,10 +23,10 @@
 }
 
 .icon_scroll {
-  @include bg-image('../../../images/icons/mouse-wheel-mobile', 'png');
+  @include bg-image('../../../images/icons/icon-mouse-wheel-mobile', 'png');
 
-  @media (min-width: 1920px) {
-    @include bg-image('../../../images/icons/mouse-wheel-desktop', 'png');
+  @media (min-width: 1200px) {
+    @include bg-image('../../../images/icons/icon-mouse-wheel-desktop', 'png');
   }
 }
 

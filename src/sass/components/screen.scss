@@ -1,4 +1,4 @@
-.screen {
+¸.screen {
   &_white {
     background-color: $white-color;
   }
@@ -89,6 +89,10 @@
   left: 51%;
 
   transform: translateX(-50%);
+
+  @media (min-width: 321px) {
+    left: 50%;
+  }
 
   @media (min-width: 1200px) {
     position: absolute;
