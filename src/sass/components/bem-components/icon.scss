@@ -23,11 +23,7 @@
 }
 
 .icon_scroll {
-  @include bg-image('../../../images/icons/icon-mouse-wheel-mobile', 'png');
-
-  @media (min-width: 1200px) {
-    @include bg-image('../../../images/icons/icon-mouse-wheel-desktop', 'png');
-  }
+  @include bg-image('../../../images/icons/icon-mouse-wheel', 'png');
 }
 
 $icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
@@ -39,16 +35,5 @@ $icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
   'icon_',
   $icons,
   '../../../images/icons/icon-',
-  '-mobile',
   'png'
 );
-
-@media (min-width: 1920px) {
-  @include generate-pseudo-icons(
-    'icon_',
-    $icons,
-    '../../../images/icons/icon-',
-    '-desktop',
-    'png'
-  );
-}
