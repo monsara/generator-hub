@@ -9,6 +9,13 @@
 
 .screen-11__gallary-item {
   @media (min-width: 1200px) {
+    $screen-w: 100%;
+    $image-number-in-line: 10;
+    $image-w: $screen-w / $image-number-in-line;
+
+    width: $image-w;
+    height: auto;
+
     background-color: $secondary-accent-color;
   }
 }
