@@ -71,7 +71,7 @@
     @include bg-image(
       $path: '../../images/screen-1_logo-mobile',
       $ext: 'png',
-      $pos: 'top'
+      $pos: top
     );
 
     transform: translateX(-50%);
