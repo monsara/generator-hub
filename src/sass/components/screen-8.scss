@@ -2,7 +2,7 @@
   margin-bottom: 41px;
   padding-top: 35px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 48px;
     padding-top: 130px;
 
@@ -15,7 +15,7 @@
 .screen-8__list {
   margin-bottom: 15px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     width: 571px;
     margin-bottom: 36px;
   }
@@ -27,7 +27,7 @@
   font-size: 14px;
   line-height: 17px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 16px;
     padding-left: 42px;
 
@@ -46,7 +46,7 @@
     width: 14px;
     height: 17px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 1px;
       top: -1px;
 
@@ -62,7 +62,7 @@
     width: 17px;
     height: 14px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: -1px;
       top: 2px;
 
@@ -78,7 +78,7 @@
     width: 16px;
     height: 14px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 1px;
       top: 2px;
 
@@ -94,7 +94,7 @@
     width: 15px;
     height: 16px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 1px;
       top: 3px;
 
@@ -110,7 +110,7 @@
     width: 16px;
     height: 16px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 0;
       top: 5px;
 
@@ -121,7 +121,7 @@
 }
 
 .screen-8__image {
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     top: 136px;
   }
 }
@@ -133,7 +133,7 @@
 
   justify-content: space-between;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     width: 571px;
     margin-top: initial;
   }

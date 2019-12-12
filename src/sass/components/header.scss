@@ -3,7 +3,7 @@
 
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     display: flex;
 
     justify-content: space-between;
@@ -22,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     position: initial;
     left: initial;
     top: initial;
@@ -45,7 +45,7 @@
 
   color: $white-color;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     padding-top: 4px;
 
     font-size: 27px;
@@ -61,7 +61,7 @@
   height: 23px;
   border-radius: 12px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     height: 24px;
   }
 }
@@ -73,7 +73,7 @@
 
   transform: translateX(-50%);
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     position: initial;
     left: initial;
     top: initial;

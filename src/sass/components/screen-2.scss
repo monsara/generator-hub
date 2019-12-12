@@ -10,7 +10,7 @@
     @include bg-image('../../images/screen-2_bg-img-desktop');
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     height: 585px;
   }
 }
@@ -19,7 +19,7 @@
   margin-bottom: 17px;
   padding-top: 43px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 37px;
     padding-top: 172px;
 
@@ -37,7 +37,7 @@
   line-height: 19px;
   font-weight: normal;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     display: flex;
     width: 630px;
     margin: auto;
@@ -64,7 +64,7 @@
     margin-bottom: 27px;
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: initial;
     transform: translateX(-15px);
 
@@ -90,7 +90,7 @@
   color: $white-color;
   text-transform: uppercase;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 30px;
 
     font-size: 18px;
@@ -120,7 +120,7 @@
 .screen-2__scroll-icon {
   height: 60px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     height: 77px;
   }
 }

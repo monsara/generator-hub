@@ -2,7 +2,7 @@
   margin-bottom: 18px;
   padding-top: 34px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 44px;
     padding-top: 130px;
 
@@ -15,14 +15,14 @@
 .screen-3__list {
   margin-bottom: 4px;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     width: 571px;
     margin-bottom: 49px;
   }
 }
 
 .screen-3__item {
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     margin-bottom: 1px;
     padding-left: 42px;
 
@@ -33,7 +33,7 @@
 
 .screen-3__icon {
   &::before {
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       top: 9px;
     }
   }
@@ -44,7 +44,7 @@
     width: 10px;
     height: 16px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 5px;
       top: 10px;
 
@@ -59,7 +59,7 @@
     width: 13px;
     height: 16px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 3px;
       top: 11px;
 
@@ -75,7 +75,7 @@
     width: 16px;
     height: 10px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 1px;
       top: 14px;
 
@@ -91,7 +91,7 @@
     width: 12px;
     height: 14px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 4px;
       top: 9px;
 
@@ -107,7 +107,7 @@
     width: 14px;
     height: 14px;
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       left: 2px;
       top: 7px;
 
@@ -124,7 +124,7 @@
 
   justify-content: space-between;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     width: 571px;
     margin-top: initial;
   }

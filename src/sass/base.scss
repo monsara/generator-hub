@@ -6,7 +6,7 @@ html {
   // line-height: 30.54px;
   // line-height: 1.2;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     font-size: 22px;
   }
 }
@@ -26,7 +26,7 @@ body {
 
   color: $primary-text-color;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     max-width: 1920px;
     margin: auto;
   }

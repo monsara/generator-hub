@@ -9,7 +9,7 @@
 }
 
 .screen__content {
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     position: relative;
   }
 }
@@ -30,7 +30,7 @@
 
   text-align: center;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     font-size: 32px;
     line-height: 38px;
 
@@ -39,7 +39,7 @@
 }
 
 .screen__button {
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     width: 430px;
     border-radius: 27px;
 
@@ -59,7 +59,7 @@
 
   text-align: initial;
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     display: block;
     padding-left: 42px;
     text-align: initial;
@@ -78,7 +78,7 @@
 
     content: '';
 
-    @media (min-width: 1920px) {
+    @media (min-width: 1200px) {
       top: 9px;
     }
   }
@@ -90,7 +90,7 @@
 
   transform: translateX(-50%);
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1200px) {
     position: absolute;
     left: initial;
     top: 138px;
