@@ -23,7 +23,7 @@
 }
 
 .icon_scroll {
-  @include bg-image('../../../images/icons/icon-mouse-wheel', 'png');
+  @include bg-image('../images/icons/icon-mouse-wheel', 'png');
 }
 
 $icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
@@ -31,9 +31,4 @@ $icons: location, bus, food, padlock, tree, internet, desc-lamp, hand-shake,
   office, conference, teapot, developer-mode, group, suitcase, money-bag, house,
   support, coffee-maker, barbell, refrigerator, bottle;
 
-@include generate-pseudo-icons(
-  'icon_',
-  $icons,
-  '../../../images/icons/icon-',
-  'png'
-);
+@include generate-pseudo-icons('icon_', $icons, '../images/icons/icon-', 'png');
