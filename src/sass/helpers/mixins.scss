@@ -29,16 +29,10 @@
 
   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     background-image: url(#{$path}@2x.#{$ext});
-    // background-size: $size;
-    // background-repeat: $repeat;
-    // background-position: $pos;
   }
 
   @media (min-resolution: 288dpi), (min-resolution: 3dppx) {
     background-image: url(#{$path}@3x.#{$ext});
-    // background-size: $size;
-    // background-repeat: $repeat;
-    // background-position: $pos;
   }
 }
 

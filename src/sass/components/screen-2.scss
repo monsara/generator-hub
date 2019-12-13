@@ -4,7 +4,9 @@
 
   text-align: center;
 
-  @include bg-image('../images/screen-2_bg-img-mobile');
+  @media (max-width: 320px) {
+    @include bg-image('../images/screen-1_bg-img-mobile');
+  }
 
   @media (min-width: 321px) {
     @include bg-image('../images/screen-2_bg-img-desktop');
