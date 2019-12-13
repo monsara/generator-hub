@@ -10,7 +10,7 @@
     width: 11px;
     height: 7px;
 
-    @include bg-image('../../images/screen-1_icon-arrow-mobile', 'png');
+    @include bg-image('../images/screen-1_icon-arrow-mobile', 'png');
 
     content: '';
   }

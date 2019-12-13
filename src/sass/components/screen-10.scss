@@ -2,7 +2,7 @@
   text-align: center;
 
   @media (min-width: 1200px) {
-    @include bg-image('../../images/screen-10_bg-img');
+    @include bg-image('../images/screen-10_bg-img');
   }
 }
 

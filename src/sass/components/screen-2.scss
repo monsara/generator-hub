@@ -4,10 +4,10 @@
 
   text-align: center;
 
-  @include bg-image('../../images/screen-2_bg-img-mobile');
+  @include bg-image('../images/screen-2_bg-img-mobile');
 
   @media (min-width: 321px) {
-    @include bg-image('../../images/screen-2_bg-img-desktop');
+    @include bg-image('../images/screen-2_bg-img-desktop');
   }
 
   @media (min-width: 1200px) {

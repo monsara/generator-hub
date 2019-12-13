@@ -69,7 +69,7 @@
     content: '';
 
     @include bg-image(
-      $path: '../../images/screen-1_logo-mobile',
+      $path: '../images/screen-1_logo-mobile',
       $ext: 'png',
       $pos: top
     );
