@@ -1,0 +1,16 @@
+.link_theme_islands {
+  font-family: Intro;
+}
+
+.link_theme_islands.lint_view_header {
+  font-size: 18px;
+  font-weight: bold;
+  color: $white-color;
+}
+
+.link_theme_islands.link_view_strong {
+  font-weight: 700;
+}
+.link_theme_islands.lint_view_header:hover {
+  color: #0bf;
+}
