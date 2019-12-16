@@ -11,6 +11,10 @@
   }
 }
 
+.screen-1__content {
+  padding-top: 248px;
+}
+
 .screen-1__title,
 .screen-1__descr,
 .screen-1__button {
@@ -31,7 +35,6 @@
 .screen-1__title {
   @media (min-width: 1200px) {
     margin-bottom: 13px;
-    padding-top: 248px;
 
     font-size: 30px;
     line-height: 36px;

@@ -1,3 +1,11 @@
+.screen-10__content {
+  padding-top: 35px;
+
+  @media (min-width: 1200px) {
+    padding-top: 97px;
+  }
+}
+
 .screen-10 {
   text-align: center;
 
@@ -8,14 +16,12 @@
 
 .screen-10__title {
   margin-bottom: 21px;
-  padding-top: 35px;
 
   font-size: 30px;
   line-height: 36px;
 
   @media (min-width: 1200px) {
     margin-bottom: 37px;
-    padding-top: 97px;
 
     font-size: 60px;
     line-height: 66px;

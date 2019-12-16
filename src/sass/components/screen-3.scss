@@ -1,10 +1,16 @@
-.screen-3__title {
-  margin-bottom: 18px;
+.screen-3__content {
   padding-top: 34px;
 
   @media (min-width: 1200px) {
-    margin-bottom: 44px;
     padding-top: 130px;
+  }
+}
+
+.screen-3__title {
+  margin-bottom: 18px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 44px;
 
     font-size: 52px;
     line-height: 62px;

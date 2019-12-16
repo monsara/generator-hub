@@ -1,10 +1,16 @@
-.screen-8__title {
-  margin-bottom: 41px;
+.screen-8__content {
   padding-top: 35px;
 
   @media (min-width: 1200px) {
-    margin-bottom: 48px;
     padding-top: 130px;
+  }
+}
+
+.screen-8__title {
+  margin-bottom: 41px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 48px;
 
     font-size: 55px;
     line-height: 66px;

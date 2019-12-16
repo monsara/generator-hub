@@ -10,13 +10,19 @@
   }
 }
 
-.screen-6__title {
-  margin-bottom: 13px;
+.screen-6__content {
   padding-top: 67px;
 
   @media (min-width: 1200px) {
-    margin-bottom: 14px;
     padding-top: 143px;
+  }
+}
+
+.screen-6__title {
+  margin-bottom: 13px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 14px;
 
     font-size: 60px;
     line-height: 72px;

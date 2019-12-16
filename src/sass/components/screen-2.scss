@@ -5,7 +5,7 @@
   text-align: center;
 
   @media (max-width: 320px) {
-    @include bg-image('../images/screen-1_bg-img-mobile');
+    @include bg-image('../images/screen-2_bg-img-mobile');
   }
 
   @media (min-width: 321px) {
@@ -17,13 +17,19 @@
   }
 }
 
-.screen-2__title {
-  margin-bottom: 17px;
+.screen-2__content {
   padding-top: 43px;
 
   @media (min-width: 1200px) {
-    margin-bottom: 37px;
     padding-top: 172px;
+  }
+}
+
+.screen-2__title {
+  margin-bottom: 17px;
+
+  @media (min-width: 1200px) {
+    margin-bottom: 37px;
 
     font-size: 60px;
     line-height: 72px;
