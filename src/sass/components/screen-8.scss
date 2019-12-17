@@ -19,19 +19,17 @@
 }
 
 .screen-8__list {
-  margin-bottom: 15px;
-
   @media (min-width: 1200px) {
     width: 571px;
-    margin-bottom: 36px;
   }
 }
 
 .screen-8__item {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 
-  font-size: 14px;
-  line-height: 17px;
+  &:last-child {
+    margin-bottom: 28px;
+  }
 
   @media (min-width: 1200px) {
     margin-bottom: 16px;
@@ -41,12 +39,16 @@
     line-height: 29px;
 
     text-align: initial;
+
+    &:last-child {
+      margin-bottom: 36px;
+    }
   }
 }
 
 .screen-8__icon {
   &_developer-mode::before {
-    left: 1px;
+    left: 0;
     top: 1px;
 
     width: 14px;
@@ -54,7 +56,7 @@
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: -1px;
+      top: 0;
 
       width: 24px;
       height: 24px;
@@ -62,15 +64,14 @@
   }
 
   &_group:before {
-    left: -1px;
-    top: -1px;
+    left: -2px;
+    top: -2px;
 
     width: 17px;
     height: 14px;
 
     @media (min-width: 1200px) {
       left: -1px;
-      top: 2px;
 
       width: 26px;
       height: 26px;
@@ -78,15 +79,15 @@
   }
 
   &_suitcase::before {
-    left: 0px;
-    top: -2px;
+    left: -1px;
+    top: -3px;
 
     width: 16px;
     height: 14px;
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: 2px;
+      top: 0;
 
       width: 24px;
       height: 20px;
@@ -94,7 +95,7 @@
   }
 
   &_money-bag::before {
-    left: 1px;
+    left: -1px;
     top: -1px;
 
     width: 15px;
@@ -102,7 +103,6 @@
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: 3px;
 
       width: 24px;
       height: 23px;
@@ -135,7 +135,7 @@
 .screen-8__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 266px;
+  margin-top: 251px;
 
   justify-content: space-between;
 

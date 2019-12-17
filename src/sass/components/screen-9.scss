@@ -19,17 +19,18 @@
 }
 
 .screen-9__list {
-  margin-bottom: 10px;
-
   @media (min-width: 1200px) {
     width: 571px;
-    margin-bottom: 65px;
   }
 }
 
 .screen-9__item {
   font-size: 12.9px;
   line-height: 15px;
+
+  &:last-child {
+    margin-bottom: 26px;
+  }
 
   @media (min-width: 1200px) {
     margin-bottom: 20px;
@@ -39,6 +40,10 @@
     line-height: 26px;
 
     text-align: initial;
+
+    &:last-child {
+      margin-bottom: 66px;
+    }
   }
 }
 
@@ -56,7 +61,6 @@
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: -1px;
 
       width: 24px;
       height: 24px;
@@ -72,7 +76,6 @@
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: -2px;
 
       width: 22px;
       height: 24px;
@@ -135,7 +138,7 @@
 .screen-9__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 262px;
+  margin-top: 251px;
 
   justify-content: space-between;
 

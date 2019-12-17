@@ -6,6 +6,11 @@
   font-size: 18px;
   font-weight: bold;
   color: $white-color;
+
+  @media (min-width: 1200px) {
+    font-size: 27px;
+    line-height: 32px;
+  }
 }
 
 .link_theme_islands.link_view_strong {

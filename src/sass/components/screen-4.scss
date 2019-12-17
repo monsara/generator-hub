@@ -21,11 +21,16 @@
 .screen-4__list {
   @media (min-width: 1200px) {
     width: 571px;
-    margin-bottom: 36px;
   }
 }
 
 .screen-4__item {
+  margin-bottom: 14px;
+
+  &:last-child {
+    margin-bottom: 18px;
+  }
+
   @media (min-width: 1200px) {
     margin-bottom: 20px;
     padding-left: 42px;
@@ -33,6 +38,10 @@
     line-height: 26px;
 
     text-align: initial;
+
+    &:last-child {
+      margin-bottom: 36px;
+    }
   }
 }
 
@@ -66,7 +75,7 @@
 
     @media (min-width: 1200px) {
       left: -1px;
-      top: -3px;
+      top: -4px;
 
       width: 25px;
       height: 25px;
@@ -75,14 +84,13 @@
 
   &_hand-shake:before {
     left: 2px;
-    top: -2px;
+    top: -1px;
 
     width: 15px;
     height: 13px;
 
     @media (min-width: 1200px) {
       left: 0;
-      top: 1px;
 
       width: 24px;
       height: 20px;
@@ -91,14 +99,14 @@
 
   &_phone-booth::before {
     left: 2px;
-    top: -3px;
+    top: -1px;
 
     width: 12px;
     height: 14px;
 
     @media (min-width: 1200px) {
       left: 4px;
-      top: 1px;
+      top: -2px;
 
       width: 15px;
       height: 25px;
@@ -107,14 +115,14 @@
 
   &_printer::before {
     left: 1px;
-    top: -4px;
+    top: -1px;
 
     width: 14px;
     height: 14px;
 
     @media (min-width: 1200px) {
       left: 0;
-      top: 2px;
+      top: 1px;
 
       width: 24px;
       height: 23px;
@@ -125,7 +133,7 @@
 .screen-4__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 251px;
 
   justify-content: space-between;
 

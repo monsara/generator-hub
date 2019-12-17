@@ -19,16 +19,17 @@
 }
 
 .screen-5__list {
-  margin-bottom: 12px;
-
   @media (min-width: 1200px) {
     width: 571px;
-    margin-bottom: 36px;
   }
 }
 
 .screen-5__item {
-  line-height: 15px;
+  margin-bottom: 13px;
+
+  &:last-child {
+    margin-bottom: 28px;
+  }
 
   @media (min-width: 1200px) {
     margin-bottom: 16px;
@@ -37,6 +38,10 @@
     line-height: 29px;
 
     text-align: initial;
+
+    &:last-child {
+      margin-bottom: 35px;
+    }
   }
 }
 
@@ -50,7 +55,6 @@
 
     @media (min-width: 1200px) {
       left: 4px;
-      top: -1px;
 
       width: 18px;
       height: 27px;
@@ -66,7 +70,7 @@
 
     @media (min-width: 1200px) {
       left: 1px;
-      top: -1px;
+      top: -2px;
 
       width: 26px;
       height: 26px;
@@ -75,14 +79,14 @@
 
   &_student:before {
     left: 0px;
-    top: -2px;
+    top: 0;
 
     width: 16px;
     height: 13px;
 
     @media (min-width: 1200px) {
       left: -1px;
-      top: 5px;
+      top: 4px;
 
       width: 26px;
       height: 21px;
@@ -91,14 +95,14 @@
 
   &_calendar::before {
     left: 3px;
-    top: -2px;
+    top: 0;
 
     width: 14px;
     height: 16px;
 
     @media (min-width: 1200px) {
       left: 4px;
-      top: 4px;
+      top: 3px;
 
       width: 21px;
       height: 24px;
@@ -107,14 +111,14 @@
 
   &_cup::before {
     left: 2px;
-    top: -1px;
+    top: 2px;
 
     width: 16px;
     height: 11px;
 
     @media (min-width: 1200px) {
       left: 0;
-      top: 6px;
+      top: 5px;
 
       width: 26px;
       height: 20px;
@@ -125,7 +129,7 @@
 .screen-5__time-counter {
   display: flex;
   width: 100%;
-  margin-top: 263px;
+  margin-top: 251px;
 
   justify-content: space-between;
 
