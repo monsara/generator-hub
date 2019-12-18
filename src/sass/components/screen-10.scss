@@ -10,6 +10,8 @@
   text-align: center;
 
   @media (min-width: 1200px) {
+    background-color: #e7e7e7;
+
     @include bg-image('../images/screen-10_bg-img');
   }
 }

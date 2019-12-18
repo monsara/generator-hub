@@ -1,6 +1,10 @@
 .screen-6 {
   text-align: center;
 
+  @media (min-width: 320px) {
+    background-color: #56aff0;
+  }
+
   @media (max-width: 320px) {
     @include bg-image('../images/screen-6_bg-img-mobile');
   }

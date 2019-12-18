@@ -2,6 +2,10 @@
   color: $white-color;
   text-align: center;
 
+  @media (min-width: 320px) {
+    background-color: #091632;
+  }
+
   @media (max-width: 320px) {
     @include bg-image('../images/screen-1_bg-img-mobile');
   }
