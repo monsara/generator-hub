@@ -32,11 +32,15 @@
 
 .input_theme_islands.input_size_m .input__control {
   height: 37px;
-  padding: 0 29px;
+  padding: 0 48px;
 
   text-align: center;
 }
 
 .input_theme_islands.input_size_m .input__clear {
   height: 37px;
+}
+
+.input_theme_islands.input_size_m.input_has-clear .input__control {
+  padding-right: 48px;
 }

@@ -22,6 +22,10 @@
   line-height: 43px;
 }
 
+.button_theme_islands.button_form.button_size_m .button__text {
+  margin: 0 56px;
+}
+
 .button_theme_islands.button_scroll {
   color: $white-color;
 }
@@ -106,6 +110,10 @@
   line-height: 54px;
 }
 
+.button_theme_islands.button_screen.button_size_m .button__text {
+  margin: 0 51px;
+}
+
 .button_theme_islands.button_screen-6 {
   border-radius: 19px;
 
@@ -132,9 +140,25 @@
   }
 }
 
+.button_theme_islands.button_screen-6.button_size_m .button__text {
+  margin: 0 30px;
+
+  @media (min-width: 1200px) {
+    margin: 0 53px;
+  }
+}
+
 .button_theme_islands.button_screen-10 {
   background: #7b8290;
   letter-spacing: 1px;
+}
+
+.button_theme_islands.button_screen-10.button_size_m .button__text {
+  margin: 0 18px;
+
+  @media (min-width: 1200px) {
+    margin: 0 22px;
+  }
 }
 
 .button_theme_islands.button_screen-10.button_checked {
@@ -199,6 +223,14 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 9px;
   border-bottom-left-radius: 9px;
+}
+
+.button_theme_islands.button_subscription-card.button_size_m .button__text {
+  margin: 0 55px;
+
+  @media (min-width: 1200px) {
+    margin: 0 63px;
+  }
 }
 
 .button_theme_islands.button_color_blue.button_subscription-card {
