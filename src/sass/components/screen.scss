@@ -16,7 +16,6 @@
 }
 
 .screen__title {
-  width: 571px;
   margin: 0;
 
   &_style_1 {
@@ -33,6 +32,8 @@
   text-align: center;
 
   @media (min-width: 1200px) {
+    width: 571px;
+
     font-size: 32px;
     line-height: 38px;
 
@@ -85,22 +86,10 @@
   }
 }
 
-.screen__image {
-  position: absolute;
-  left: 51%;
-
-  transform: translateX(-50%);
-
-  @media (min-width: 321px) {
-    left: 50%;
-  }
+.screen__slider {
+  width: 296px;
 
   @media (min-width: 1200px) {
-    position: absolute;
-    left: initial;
-    top: 138px;
-    right: -37px;
-
-    transform: initial;
+    width: 570px;
   }
 }

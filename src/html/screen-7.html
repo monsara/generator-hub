@@ -32,32 +32,206 @@
       </li>
     </ul>
 
-    <picture class="screen-7__image">
-      <source
-        media="(min-width: 1200px)"
-        srcset="
-          ./images/phone-booth.png,
-          ./images/phone-booth@2x.png 2x,
-          ./images/phone-booth@3x.png 3x
-        "
-      />
-      <img
-        class="image screen__image"
-        src="./images/map-mobile.png"
-        alt="Location on the map"
-        srcset="
-          ./images/map-mobile.png,
-          ./images/map-mobile@2x.png 2x,
-          ./images/map-mobile@3x.png 3x
-        "
-      />
-    </picture>
+    <!-- slider -->
+    <div class="slider screen__slider">
+      <ul class="slider__list list">
+        <li class="slider-item slider__item">
+          <picture class="slide__container">
+            <source
+              class="slider-item__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/map-desktop.jpg,
+                ./images/slides/map-desktop@2x.jpg 2x,
+                ./images/slides/map-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-item__image"
+              src="./images/slides/map-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/map-mobile.jpg,
+                ./images/slides/map-mobile@2x.jpg 2x,
+                ./images/slides/map-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
 
-    <ul class="time-counter screen-7__time-counter list">
-      <li class="time-counter__item time-counter__days"></li>
-      <li class="time-counter__item time-counter__days"></li>
-      <li class="time-counter__item time-counter__hours"></li>
-      <li class="time-counter__item time-counter__minutes"></li>
-    </ul>
+        <li class="slider-item slider-item_active slider__item">
+          <picture class="slide__container">
+            <source
+              class="slider-item__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/phone-booth-desktop.jpg,
+                ./images/slides/phone-booth-desktop@2x.jpg 2x,
+                ./images/slides/phone-booth-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-item__image"
+              src="./images/slides/phone-booth-mobile.jpg"
+              alt="Photo of a telephone booth on a mobile phone screen"
+              srcset="
+                ./images/slides/phone-booth-mobile.jpg,
+                ./images/slides/phone-booth-mobile@2x.jpg 2x,
+                ./images/slides/phone-booth-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-item slider__item">
+          <picture class="slide__container">
+            <source
+              class="slider-item__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/map-desktop.jpg,
+                ./images/slides/map-desktop@2x.jpg 2x,
+                ./images/slides/map-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-item__image"
+              src="./images/slides/map-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/map-mobile.jpg,
+                ./images/slides/map-mobile@2x.jpg 2x,
+                ./images/slides/map-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-item slider__item">
+          <picture class="slide__container">
+            <source
+              class="slider-item__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/phone-booth-desktop.jpg,
+                ./images/slides/phone-booth-desktop@2x.jpg 2x,
+                ./images/slides/phone-booth-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-item__image"
+              src="./images/slides/phone-booth-mobile.jpg"
+              alt="Photo of a telephone booth on a mobile phone screen"
+              srcset="
+                ./images/slides/phone-booth-mobile.jpg,
+                ./images/slides/phone-booth-mobile@2x.jpg 2x,
+                ./images/slides/phone-booth-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+      </ul>
+
+      <!-- slider-preview -->
+      <ul class="slider__preview slider-preview slider-preview__list list">
+        <li class="slider-preview__item">
+          <picture class="slider-preview__container">
+            <source
+              class="slider-preview__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/thumbs/map-desktop.jpg,
+                ./images/slides/thumbs/map-desktop@2x.jpg 2x,
+                ./images/slides/thumbs/map-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-preview__image"
+              src="./images/slides/map-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/thumbs/map-mobile.jpg,
+                ./images/slides/thumbs/map-mobile@2x.jpg 2x,
+                ./images/slides/thumbs/map-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-preview__item">
+          <picture class="slider-preview__container">
+            <source
+              class="slider-preview__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/thumbs/phone-booth-desktop.jpg,
+                ./images/slides/thumbs/phone-booth-desktop@2x.jpg 2x,
+                ./images/slides/thumbs/phone-booth-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-preview__image"
+              src="./images/slides/phone-booth-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/thumbs/phone-booth-mobile.jpg,
+                ./images/slides/thumbs/phone-booth-mobile@2x.jpg 2x,
+                ./images/slides/thumbs/phone-booth-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-preview__item">
+          <picture class="slider-preview__container">
+            <source
+              class="slider-preview__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/thumbs/map-desktop.jpg,
+                ./images/slides/thumbs/map-desktop@2x.jpg 2x,
+                ./images/slides/thumbs/map-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-preview__image"
+              src="./images/slides/map-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/thumbs/map-mobile.jpg,
+                ./images/slides/thumbs/map-mobile@2x.jpg 2x,
+                ./images/slides/thumbs/map-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+
+        <li class="slider-preview__item">
+          <picture class="slider-preview__container">
+            <source
+              class="slider-preview__content"
+              media="(min-width: 1200px)"
+              srcset="
+                ./images/slides/thumbs/phone-booth-desktop.jpg,
+                ./images/slides/thumbs/phone-booth-desktop@2x.jpg 2x,
+                ./images/slides/thumbs/phone-booth-desktop@3x.jpg 3x
+              "
+            />
+            <img
+              class="image slider-preview__image"
+              src="./images/slides/phone-booth-mobile.jpg"
+              alt="Location on the map"
+              srcset="
+                ./images/slides/thumbs/phone-booth-mobile.jpg,
+                ./images/slides/thumbs/phone-booth-mobile@2x.jpg 2x,
+                ./images/slides/thumbs/phone-booth-mobile@3x.jpg 3x
+              "
+            />
+          </picture>
+        </li>
+      </ul>
+      <!-- slider-preview -->
+    </div>
+    <!-- slider end -->
   </div>
 </section>

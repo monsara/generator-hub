@@ -26,7 +26,7 @@
 
 .screen-3__item {
   &:last-child {
-    margin-bottom: 19px;
+    margin-bottom: 28px;
   }
 
   @media (min-width: 1200px) {
@@ -124,18 +124,5 @@
       width: 22px;
       height: 22px;
     }
-  }
-}
-
-.screen-3__time-counter {
-  display: flex;
-  width: 100%;
-  margin-top: 251px;
-
-  justify-content: space-between;
-
-  @media (min-width: 1200px) {
-    width: 571px;
-    margin-top: initial;
   }
 }
