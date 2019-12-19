@@ -17,6 +17,11 @@
 
 .screen-1__content {
   padding-top: 248px;
+  padding-bottom: 276px;
+
+  @media (min-width: 1200px) {
+    padding-bottom: 236px;
+  }
 }
 
 .screen-1__title,

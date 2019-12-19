@@ -3,6 +3,9 @@
 }
 
 .footer__content {
+  padding-top: 2px;
+  padding-bottom: 16px;
+
   font-size: 12px;
   line-height: 14px;
 
@@ -12,6 +15,8 @@
   @media (min-width: 1200px) {
     display: flex;
     min-height: 100%;
+    padding-top: 36px;
+    padding-bottom: 34px;
 
     justify-content: space-between;
     align-items: center;
