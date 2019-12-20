@@ -38,3 +38,63 @@ anchors.forEach(function(item) {
     }, animationTime / framesCount);
   });
 });
+
+// =============================================================================
+
+document.addEventListener('DOMContentLoaded', function() {
+  const page = document.querySelector('.page');
+  const subscriptionForm = document.querySelector('.subscription-form');
+
+  const openModalBtns = document.querySelectorAll(
+    '.button[data-action="open-modal"]',
+  );
+  const formSubmitBtn = document.querySelector(
+    '.button[data-action="submit-form"]',
+  );
+
+  openModalBtns.forEach(function(item) {
+    item.addEventListener('click', handleOpenModal);
+  });
+
+  subscriptionForm.addEventListener(
+    'submit',
+    handleSubscriptionFormClick,
+    false,
+  );
+
+  function handleOpenModal(evt) {
+    evt.preventDefault();
+
+    page.classList.add('show-modal');
+    window.addEventListener('keydown', handleModalEscPress);
+  }
+
+  function handleSubscriptionFormClick(evt) {
+    const target = evt.target;
+    const nodeName = target.nodeName;
+
+    if (nodeName !== 'BUTTON') return;
+
+    handleSubmit();
+    console.log(evt);
+  }
+
+  function handleSubmit(evt) {
+    evt.preventDefault();
+    handleCloseModal();
+    subscriptionForm.reset();
+  }
+
+  function handleCloseModal() {
+    page.classList.remove('.show-modal');
+    window.removeEventListener('keydown', handleModalEscPress);
+  }
+
+  function handleModalEscPress(evt) {
+    const key = evt.code;
+
+    if (key !== 'Escape') return;
+
+    handleCloseModal();
+  }
+});

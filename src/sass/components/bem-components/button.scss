@@ -10,20 +10,37 @@
   transition: all 0.2s linear;
 }
 
-.button_theme_islands.button_form {
+.button_theme_islands.button_subscription-form {
   border-radius: 21px;
+
+  @media (min-width: 1200px) {
+    border-radius: 24px;
+  }
 }
 
-.button_theme_islands.button_form:before {
+.button_theme_islands.button_subscription-form:before {
   border-radius: 20px;
+
+  @media (min-width: 1200px) {
+    border-radius: 23px;
+  }
 }
 
-.button_theme_islands.button_form.button_size_m {
-  line-height: 43px;
+.button_theme_islands.button_subscription-form.button_size_m {
+  line-height: 44px;
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 50px;
+  }
 }
 
-.button_theme_islands.button_form.button_size_m .button__text {
+.button_theme_islands.button_subscription-form.button_size_m .button__text {
   margin: 0 56px;
+
+  @media (min-width: 1200px) {
+    margin: 0 65px;
+  }
 }
 
 .button_theme_islands.button_scroll {

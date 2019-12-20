@@ -61,37 +61,13 @@
   }
 }
 
-.screen-1__form {
-  position: absolute;
-  top: 184px;
+// .screen-1__subscription-form {
+//   position: absolute;
+//   top: 184px;
 
-  width: 296px;
-  height: 362px;
-  border-radius: 8px;
+//   width: 296px;
+//   height: 362px;
+//   border-radius: 8px;
 
-  background-color: $white-color;
-
-  &::before {
-    position: absolute;
-    top: -85px;
-    left: 50%;
-
-    display: block;
-    width: 124px;
-    height: 85px;
-
-    content: '';
-
-    @include bg-image(
-      $path: '../images/screen-1_logo-mobile',
-      $ext: 'png',
-      $pos: top
-    );
-
-    transform: translateX(-50%);
-  }
-
-  @media (min-width: 1200px) {
-    display: none;
-  }
-}
+//   background-color: $white-color;
+// }

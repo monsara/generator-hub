@@ -1,22 +1,9 @@
-<section class="screen screen-1 page__screen-1">
-  <div class="screen__content screen-1__content container">
-    <h2 class="screen_title screen-1__title">
-      Ищите подходящее место для работы?
-    </h2>
-
-    <p class="screen-1__descr">
-      Generator Hub - больше, чем рабочее место.
-    </p>
-
-    <a
-      class="button button_theme_islands button_size_m button_type_link button__control i-bem button_color_blue button_screen screen__button screen-1__button"
-      data-bem='{"button":{}}'
-      role="link"
-      href="#subscription"
-      ><span class="button__text">Присоедениться к сообществу</span></a
+<div class="modal-backdrop page__modal-backdrop">
+  <div class="modal modal-backdrop__modal">
+    <form
+      class="subscription-form subscription-form__container modal-backdrop__subscription-form"
+      action="#"
     >
-
-    <!-- <form class="subscription-form screen-1__subscription-form" action="#">
       <picture class="logo subscription-form__logo">
         <source
           media="(min-width: 1200px)"
@@ -54,7 +41,7 @@
       <ul class="subscription-form__list list">
         <li class="subscription-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem form__control subscription-form__input"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
@@ -67,9 +54,9 @@
           </span>
         </li>
 
-        <li class="form__item">
+        <li class="subscription-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem subscription-form__control subscription-form__input"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
@@ -82,9 +69,9 @@
           </span>
         </li>
 
-        <li class="form__item">
+        <li class="subscription-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem subscription-form__control subscription-form__input"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
@@ -97,10 +84,11 @@
           </span>
         </li>
 
-        <li class="form__item">
+        <li class="subscription-form__item">
           <button
-            class="button button_theme_islands button_size_m button_type_submit button_color_blue button_form button__control i-bem subscription-form__control subscription-form__button"
+            class="button button_theme_islands button_size_m button_type_submit button_color_blue button_subscription-form button__control i-bem subscription-form__control subscription-form__button"
             data-bem='{"button":{}}'
+            data-action="submit-form"
             role="button"
             type="submit"
           >
@@ -108,6 +96,6 @@
           </button>
         </li>
       </ul>
-    </form> -->
+    </form>
   </div>
-</section>
+</div>

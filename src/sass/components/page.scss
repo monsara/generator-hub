@@ -17,3 +17,18 @@
 .page__screen {
   width: 100%;
 }
+
+.page__modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+
+.page.show-modal .page__modal-backdrop {
+  display: block;
+}
