@@ -56,11 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     item.addEventListener('click', handleOpenModal);
   });
 
-  subscriptionForm.addEventListener(
-    'submit',
-    handleSubscriptionFormClick,
-    false,
-  );
+  subscriptionForm.addEventListener('submit', handleSubscriptionFormClick);
 
   function handleOpenModal(evt) {
     evt.preventDefault();
