@@ -25,10 +25,10 @@
 }
 
 .screen-6__title {
-  width: 100%;
   margin-bottom: 13px;
 
   @media (min-width: 1200px) {
+    width: 100%;
     margin-bottom: 14px;
 
     font-size: 60px;

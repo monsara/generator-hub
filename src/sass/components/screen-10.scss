@@ -19,13 +19,13 @@
 }
 
 .screen-10__title {
-  width: 100%;
   margin-bottom: 21px;
 
   font-size: 30px;
   line-height: 36px;
 
   @media (min-width: 1200px) {
+    width: 100%;
     margin-bottom: 37px;
 
     font-size: 60px;
