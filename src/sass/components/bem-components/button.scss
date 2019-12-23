@@ -10,7 +10,7 @@
   transition: all 0.2s linear;
 }
 
-.button_theme_islands.button_subscription-form {
+.button_theme_islands.button_order-form {
   border-radius: 21px;
 
   @media (min-width: 1200px) {
@@ -18,7 +18,7 @@
   }
 }
 
-.button_theme_islands.button_subscription-form:before {
+.button_theme_islands.button_order-form:before {
   border-radius: 20px;
 
   @media (min-width: 1200px) {
@@ -26,7 +26,7 @@
   }
 }
 
-.button_theme_islands.button_subscription-form.button_size_m {
+.button_theme_islands.button_order-form.button_size_m {
   line-height: 44px;
 
   @media (min-width: 1200px) {
@@ -35,7 +35,7 @@
   }
 }
 
-.button_theme_islands.button_subscription-form.button_size_m .button__text {
+.button_theme_islands.button_order-form.button_size_m .button__text {
   margin: 0 56px;
 
   @media (min-width: 1200px) {

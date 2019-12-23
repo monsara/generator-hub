@@ -1,10 +1,11 @@
 <div class="modal-backdrop page__modal-backdrop">
   <div class="modal modal-backdrop__modal">
     <form
-      class="subscription-form subscription-form__container modal-backdrop__subscription-form"
-      action="#"
+      class="order-form order-form__container modal-backdrop__order-form"
+      action="/"
+      method="post"
     >
-      <picture class="logo subscription-form__logo">
+      <picture class="logo order-form__logo">
         <source
           media="(min-width: 1200px)"
           srcset="
@@ -25,38 +26,39 @@
         />
       </picture>
 
-      <h3 class="subscription-form__title">
+      <h3 class="order-form__title">
         Абонемент
         <span
-          class="subscription-form__title subscription-form__title_bold subscription-form__title_uppercase"
+          class="order-form__title order-form__title_bold order-form__title_uppercase"
           >Выходные</span
         >
       </h3>
 
-      <p class="subscription-form__text subscription-form__text_bold">
+      <p class="order-form__text order-form__text_bold">
         Оставьте свои данные и мы
         <br />свяжемся с вами
       </p>
 
-      <ul class="subscription-form__list list">
-        <li class="subscription-form__item">
+      <ul class="order-form__list list">
+        <li class="order-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_order-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
                 class="input__control"
                 type="text"
-                name="user-name"
-                id="user-name"
-                placeholder="Имя Фамилия"/><span class="input__clear"></span
+                name="user-full-name"
+                id="user-full-name"
+                placeholder="Имя Фамилия"
+                required/><span class="input__clear"></span
             ></span>
           </span>
         </li>
 
-        <li class="subscription-form__item">
+        <li class="order-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_order-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
@@ -64,14 +66,15 @@
                 type="tel"
                 name="user-telephone"
                 id="user-telephone"
-                placeholder="Номер телефона"/><span class="input__clear"></span
+                placeholder="Номер телефона"
+                required/><span class="input__clear"></span
             ></span>
           </span>
         </li>
 
-        <li class="subscription-form__item">
+        <li class="order-form__item">
           <span
-            class="input input_theme_islands input_size_m input_has-clear i-bem input_subscription-form"
+            class="input input_theme_islands input_size_m input_has-clear i-bem input_order-form"
             data-bem='{"input":{}}'
             ><span class="input__box"
               ><input
@@ -79,14 +82,15 @@
                 type="email"
                 name="user-email"
                 id="user-email"
-                placeholder="Email"/><span class="input__clear"></span
+                placeholder="Email"
+                required/><span class="input__clear"></span
             ></span>
           </span>
         </li>
 
-        <li class="subscription-form__item">
+        <li class="order-form__item">
           <button
-            class="button button_theme_islands button_size_m button_type_submit button_color_blue button_subscription-form button__control i-bem subscription-form__control subscription-form__button"
+            class="button button_theme_islands button_size_m button_type_submit button_color_blue button_order-form button__control i-bem order-form__control order-form__button"
             data-bem='{"button":{}}'
             data-action="submit-form"
             role="button"

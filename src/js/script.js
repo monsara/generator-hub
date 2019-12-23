@@ -43,20 +43,20 @@ anchors.forEach(function(item) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const page = document.querySelector('.page');
-  const subscriptionForm = document.querySelector('.subscription-form');
+  const orderForm = document.querySelector('.subscription-form');
 
   const openModalBtns = document.querySelectorAll(
     '.button[data-action="open-modal"]',
   );
-  const formSubmitBtn = document.querySelector(
-    '.button[data-action="submit-form"]',
-  );
+  // const formSubmitBtn = document.querySelector(
+  //   '.button[data-action="submit-form"]',
+  // );
 
   openModalBtns.forEach(function(item) {
     item.addEventListener('click', handleOpenModal);
   });
 
-  subscriptionForm.addEventListener('submit', handleSubscriptionFormClick);
+  orderForm.addEventListener('submit', handleOrderFormClick);
 
   function handleOpenModal(evt) {
     evt.preventDefault();
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('keydown', handleModalEscPress);
   }
 
-  function handleSubscriptionFormClick(evt) {
+  function handleOrderFormClick(evt) {
     const target = evt.target;
     const nodeName = target.nodeName;
 
@@ -78,11 +78,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function handleSubmit(evt) {
     evt.preventDefault();
     handleCloseModal();
-    subscriptionForm.reset();
+    orderForm.reset();
   }
 
   function handleCloseModal() {
-    page.classList.remove('.show-modal');
+    page.classList.remove('show-modal');
     window.removeEventListener('keydown', handleModalEscPress);
   }
 
@@ -92,5 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (key !== 'Escape') return;
 
     handleCloseModal();
+
+    console.log('Работает', evt);
   }
 });

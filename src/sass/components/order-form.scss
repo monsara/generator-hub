@@ -1,9 +1,9 @@
-.subscription-form {
+.order-form {
   text-align: center;
   background-color: $white-color;
 }
 
-.subscription-form__container {
+.order-form__container {
   padding-top: 73px;
   padding-bottom: 20px;
 
@@ -13,7 +13,7 @@
   }
 }
 
-.subscription-form__logo {
+.order-form__logo {
   position: absolute;
   top: -71px;
   left: 50%;
@@ -24,8 +24,8 @@
   }
 }
 
-.subscription-form__title,
-.subscription-form__text {
+.order-form__title,
+.order-form__text {
   margin: 0;
 
   font-size: 15.71px;
@@ -48,7 +48,7 @@
   }
 }
 
-.subscription-form__title {
+.order-form__title {
   margin-bottom: 10px;
 
   @media (min-width: 1200px) {
@@ -56,7 +56,7 @@
   }
 }
 
-.subscription-form__text {
+.order-form__text {
   margin-bottom: 16px;
 
   @media (min-width: 1200px) {
@@ -64,7 +64,7 @@
   }
 }
 
-.subscription-form__item {
+.order-form__item {
   margin-bottom: 8px;
 
   &:nth-child(3n) {
