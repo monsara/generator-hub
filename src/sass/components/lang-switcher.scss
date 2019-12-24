@@ -1,38 +1,11 @@
-.lang-switcher {
-  background-color: $white-color;
+.lang-switcher__button-text {
+  transform: translateX(-4px);
 
-  &::after {
-    position: absolute;
-    left: 34px;
-    top: 9px;
-
-    display: block;
-    width: 11px;
-    height: 7px;
-
-    @include bg-image('../images/screen-1_icon-arrow-mobile', 'png');
-
-    content: '';
+  @media (min-width: 1200px) {
+    transform: translateX(-3px);
   }
 }
 
-.lang-switcher__select {
-  width: 100%;
-  padding-left: 10px;
-  border: 0;
-  border-radius: 12px;
-
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: normal;
-
-  text-transform: uppercase;
-
-  cursor: pointer;
-  -webkit-appearance: button; /* hide default arrow in chrome OSX */
-
-  @media (min-width: 1200px) {
-    font-size: 14px;
-    line-height: 28px;
-  }
+.lang-switcher__icon {
+  transform: translate(1px, -2px);
 }

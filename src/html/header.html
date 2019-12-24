@@ -11,34 +11,81 @@
         >(+373) 79 02 50 25</a
       >
 
-      <span class="lang-switcher header__lang-switcher">
-        <select class="lang-switcher__select">
-          <option class="lang-switcher__language">Ru</option>
-          <option class="lang-switcher__language">Ua</option>
-          <option class="lang-switcher__language">En</option>
-        </select>
-      </span>
+      <div
+        class="lang-switcher header__lang-switcher header__lang-switcher select select_mode_radio select_theme_islands select_size_m i-bem"
+        data-bem='{"select":{"name":"select2"}}'
+      >
+        <input
+          class="select__control"
+          type="hidden"
+          name="select2"
+          value="2"
+          autocomplete="off"
+        /><button
+          class="button button_size_m button_theme_islands button_lang-switcher select__button button__control i-bem"
+          data-bem='{"button":{}}'
+          role="listbox"
+          aria-owns="uniq14953563398041 uniq14953563398042 uniq14953563398043"
+          aria-labelledby="uniq14953563398044"
+          type="button"
+        >
+          <span
+            class="button__text lang-switcher__button-text"
+            id="uniq14953563398044"
+            >Ru</span
+          ><span class="icon lang-switcher__icon select__tick"></span>
+        </button>
+
+        <div
+          class="popup popup_target_anchor popup_theme_islands popup_autoclosable i-bem"
+          data-bem='{"popup":{"directions":["bottom-left","bottom-right","top-left","top-right"]}}'
+          aria-hidden="true"
+        >
+          <div
+            class="menu menu_size_m menu_theme_islands menu_mode_radio select__menu menu__control i-bem"
+            data-bem='{"menu":{}}'
+          >
+            <div
+              class="menu__item menu__item_theme_islands i-bem"
+              data-bem='{"menu__item":{"val":1}}'
+              role="option"
+              id="uniq14953563398041"
+              aria-checked="false"
+            >
+              Ru
+            </div>
+            <div
+              class="menu__item menu__item_checked menu__item_theme_islands i-bem"
+              data-bem='{"menu__item":{"val":2}}'
+              role="option"
+              id="uniq14953563398042"
+              aria-checked="true"
+            >
+              Ua
+            </div>
+            <div
+              class="menu__item menu__item_theme_islands i-bem"
+              data-bem='{"menu__item":{"val":3}}'
+              role="option"
+              id="uniq14953563398043"
+              aria-checked="false"
+            >
+              En
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <picture class="logo header__logo">
-      <source
-        media="(min-width: 1200px)"
-        srcset="
-          ./images/screen-1_logo-desktop.png,
-          ./images/screen-1_logo-desktop@2x.png 2x,
-          ./images/screen-1_logo-desktop@3x.png 3x
-        "
-      />
-      <img
-        class="image"
-        src="./images/screen-1_logo-mobile.png"
-        alt="Logo image"
-        srcset="
-          ./images/screen-1_logo-mobile.png,
-          ./images/screen-1_logo-mobile@2x.png 2x,
-          ./images/screen-1_logo-mobile@3x.png 3x
-        "
-      />
-    </picture>
+    <img
+      class="image logo header__logo"
+      src="./images/header-logo.png"
+      alt="Logo image"
+      srcset="
+        ./images/header-logo.png,
+        ./images/header-logo@2x.png 2x,
+        ./images/header-logo@3x.png 3x
+      "
+    />
   </div>
 </header>

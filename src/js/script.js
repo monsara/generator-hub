@@ -43,7 +43,7 @@ anchors.forEach(function(item) {
 
 document.addEventListener('DOMContentLoaded', function() {
   const page = document.querySelector('.page');
-  const orderForm = document.querySelector('.subscription-form');
+  const orderForm = document.querySelector('.order-form');
 
   const openModalBtns = document.querySelectorAll(
     '.button[data-action="open-modal"]',
@@ -51,6 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // const formSubmitBtn = document.querySelector(
   //   '.button[data-action="submit-form"]',
   // );
+
+  console.log(orderForm);
 
   openModalBtns.forEach(function(item) {
     item.addEventListener('click', handleOpenModal);
@@ -96,3 +98,19 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Работает', evt);
   }
 });
+
+// =======
+
+// const select = document.querySelector('.select_test');
+// const popup = document.querySelector('.popup_test');
+// const btn = document.querySelector('.select .button_test');
+
+// console.log(btn);
+
+// select.onmouseenter = function() {
+//   popup.classList.add('popup_visible');
+// };
+
+// select.onmouseleave = function() {
+//   popup.classList.remove('popup_visible');
+// };
