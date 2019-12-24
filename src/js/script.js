@@ -112,5 +112,3 @@ document.addEventListener('DOMContentLoaded', function() {
 // select.onmouseleave = function() {
 //   popup.classList.remove('popup_visible');
 // };
-
-// ========
