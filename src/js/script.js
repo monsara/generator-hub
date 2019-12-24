@@ -52,8 +52,6 @@ document.addEventListener('DOMContentLoaded', function() {
   //   '.button[data-action="submit-form"]',
   // );
 
-  console.log(orderForm);
-
   openModalBtns.forEach(function(item) {
     item.addEventListener('click', handleOpenModal);
   });
@@ -114,3 +112,5 @@ document.addEventListener('DOMContentLoaded', function() {
 // select.onmouseleave = function() {
 //   popup.classList.remove('popup_visible');
 // };
+
+// ========
