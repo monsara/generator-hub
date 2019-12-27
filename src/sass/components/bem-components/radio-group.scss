@@ -3,27 +3,25 @@
   font-size: 0;
 }
 
-.control-group > .button_theme_islands.button_screen-10:first-child,
-.control-group > :first-child .button_theme_islands.button_screen-10,
-.control-group > :first-child.popup + .button_theme_islands.button_screen-10 {
+.control-group > .button_theme_islands.button_tabs:first-child,
+.control-group > :first-child .button_theme_islands.button_tabs,
+.control-group > :first-child.popup + .button_theme_islands.button_tabs {
   border-radius: 18px 0 0 18px;
 }
 
-.control-group > .button_theme_islands.button_screen-10:first-child:before,
-.control-group > :first-child .button_theme_islands.button_screen-10:before,
-.control-group
-  > :first-child.popup
-  + .button_theme_islands.button_screen-10:before {
+.control-group > .button_theme_islands.button_tabs:first-child:before,
+.control-group > :first-child .button_theme_islands.button_tabs:before,
+.control-group > :first-child.popup + .button_theme_islands.button_tabs:before {
   border-radius: 17px 0 0 17px;
 }
 
-.control-group > .button_theme_islands.button_screen-10:last-child,
-.control-group > :last-child .button_theme_islands.button_screen-10 {
+.control-group > .button_theme_islands.button_tabs:last-child,
+.control-group > :last-child .button_theme_islands.button_tabs {
   border-radius: 0 18px 18px 0;
 }
 
-.control-group > .button_theme_islands.button_screen-10:last-child:before,
-.control-group > :last-child .button_theme_islands.button_screen-10:before {
+.control-group > .button_theme_islands.button_tabs:last-child:before,
+.control-group > :last-child .button_theme_islands.button_tabs:before {
   border-radius: 0 17px 17px 0;
   right: 2px;
 }

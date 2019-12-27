@@ -7,406 +7,428 @@
       Абонементы и цены
     </h2>
 
-    <span
-      class="radio-group radio-group_theme_islands radio-group_size_m radio-group_type_button radio-group_togglable_radio control-group i-bem radio-group_js_inited screen-10__controls"
-      data-bem='{"radio-group":{}}'
-      role="radiogroup"
-    >
-      <label
-        class="radio radio_type_button radio_theme_islands radio_size_m i-bem"
-        data-bem='{"radio":{}}'
+    <div class="tabs">
+      <span
+        class="radio-group radio-group_theme_islands radio-group_size_m radio-group_type_button radio-group_togglable_radio control-group i-bem radio-group_js_inited screen-10__controls"
+        data-bem='{"radio-group":{}}'
+        role="radiogroup"
       >
-        <button
-          class="button button_togglable_radio button_theme_islands button_size_m button__control button_screen-10 button_left screen-10__button i-bem"
-          data-bem='{"button":{}}'
-          role="button"
-          type="button"
-          aria-pressed="false"
+        <label
+          class="radio radio_type_button radio_theme_islands radio_size_m i-bem"
+          data-bem='{"radio":{}}'
         >
-          <span class="button__text">Стандартные</span>
-        </button>
-        <input
-          class="radio__control"
-          type="radio"
-          autocomplete="off"
-          name="radio-button"
-          value="1"
-        />
-      </label>
-      <label
-        class="radio radio_type_button radio_theme_islands radio_size_m i-bem"
-        data-bem='{"radio":{}}'
-      >
-        <button
-          class="button button_togglable_radio button_theme_islands button_size_m button__control button_screen-10 button_right screen-10__button i-bem"
-          data-bem='{"button":{}}'
-          role="button"
-          type="button"
-          aria-pressed="false"
+          <button
+            class="button button_togglable_radio button_theme_islands button_size_m button_checked button__control button_tabs button_tabs_left tabs__button i-bem"
+            data-bem='{"button":{}}'
+            data-tab="tabs__panel_1"
+            role="button"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="button__text">Стандартные</span>
+          </button>
+          <input
+            class="radio__control"
+            type="radio"
+            autocomplete="off"
+            name="radio-button"
+            value="1"
+          />
+        </label>
+        <label
+          class="radio radio_type_button radio_theme_islands radio_size_m i-bem"
+          data-bem='{"radio":{}}'
         >
-          <span class="button__text">Специальные</span>
-        </button>
-        <input
-          class="radio__control"
-          type="radio"
-          autocomplete="off"
-          name="radio-button"
-          value="2"
-        />
-      </label>
-    </span>
+          <button
+            class="button button_togglable_radio button_theme_islands button_size_m button__control button_tabs button_tabs_right tabs__button i-bem"
+            data-bem='{"button":{}}'
+            data-tab="tabs__panel_2"
+            role="button"
+            type="button"
+            aria-pressed="false"
+          >
+            <span class="button__text">Специальные</span>
+          </button>
+          <input
+            class="radio__control"
+            type="radio"
+            autocomplete="off"
+            name="radio-button"
+            value="2"
+          />
+        </label>
+      </span>
 
-    <ul class="screen-10__list list">
-      <!-- For mobile screen -->
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">Премиум</h3>
+      <ul class="tabs__content tabs__list list">
+        <!-- Tab panel 1 begin-->
+        <li class="tabs__panel tabs__panel_1 tabs__panel_active tabs-panel">
+          <ul class="tabs-panel__list list">
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_1__subscription-card"
+            >
+              <h3 class="subscription-card__title">Премиум</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">120</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">120</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Фиксированное<br />
-            рабочее место
-          </li>
-          <li class="subscription-card__item">Доступ 24/24 на один месяц</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Персональная ячейка<br />
-            с ключом
-          </li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатный доступ для 8 гостей в месяц
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Фиксированное<br />
+                  рабочее место
+                </li>
+                <li class="subscription-card__item">
+                  Доступ 24/24 на один месяц
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Персональная ячейка<br />
+                  с ключом
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатный доступ для 8 гостей в месяц
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_blue screen-10__item"
-      >
-        <h3 class="subscription-card__title">
-          Премиум команда
-        </h3>
+            <li
+              class="subscription-card subscription-card_color_blue tabs__subscription-card tabs__panel_1__subscription-card"
+            >
+              <h3 class="subscription-card__title">
+                Премиум команда
+              </h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">200</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">200</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Фиксированное место для команды до 6 человек
-          </li>
-          <li class="subscription-card__item">Доступ 24/7</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Персональная ячейка<br />
-            с ключом
-          </li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатный доступ для 8 гостей в месяц
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Фиксированное место для команды до 6 человек
+                </li>
+                <li class="subscription-card__item">Доступ 24/7</li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Персональная ячейка<br />
+                  с ключом
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатный доступ для 8 гостей в месяц
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_dark-blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_dark-blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">1 день</h3>
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_1__subscription-card"
+            >
+              <h3 class="subscription-card__title">1 день</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value"
-            >6<span
-              class="subscription-card__price-value subscription-card__price-value__small"
-              >.99</span
-            ></span
-          ><span class="visually-hidden">/мес</span>
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value"
+                  >6<span
+                    class="subscription-card__price-value subscription-card__price-value__small"
+                    >.99</span
+                  ></span
+                ><span class="visually-hidden">/мес</span>
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">Рабочее место</li>
-          <li class="subscription-card__item">Доступ на 24 часа</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">Рабочее место</li>
+                <li class="subscription-card__item">Доступ на 24 часа</li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">Ивент</h3>
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_1__subscription-card"
+            >
+              <h3 class="subscription-card__title">Ивент</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value"
-            >4<span
-              class="subscription-card__price-value subscription-card__price-value__small"
-              >.99</span
-            ></span
-          ><span class="visually-hidden">/мес</span>
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value"
+                  >4<span
+                    class="subscription-card__price-value subscription-card__price-value__small"
+                    >.99</span
+                  ></span
+                ><span class="visually-hidden">/мес</span>
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Доступ на одно из мероприятий Generator Hub
-          </li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Доступ на одно из мероприятий Generator Hub
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
-      <!--  For mobile screen End-->
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+        <!-- Tab panel 1 end-->
 
-      <!-- For desktop screen -->
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">Выходные</h3>
+        <!-- Tab panel 2 begin-->
+        <li class="tabs__panel tabs__panel_2 tabs-panel">
+          <ul class="tabs-panel__list list">
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_2__subscription-card"
+            >
+              <h3 class="subscription-card__title">Выходные</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">30</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">30</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Рабочее место
-          </li>
-          <li class="subscription-card__item">Доступ 24/24 в выходные дни</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Рабочее место
+                </li>
+                <li class="subscription-card__item">
+                  Доступ 24/24 в выходные дни
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">10 дней</h3>
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_2__subscription-card"
+            >
+              <h3 class="subscription-card__title">10 дней</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">40</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">40</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Рабочее место
-          </li>
-          <li class="subscription-card__item">Доступ 24/24, 10 дней в месяц</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Рабочее место
+                </li>
+                <li class="subscription-card__item">
+                  Доступ 24/24, 10 дней в месяц
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_blue screen-10__item"
-      >
-        <h3 class="subscription-card__title">Будни</h3>
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_2__subscription-card"
+            >
+              <h3 class="subscription-card__title">Будни</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">50</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">50</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Рабочее место
-          </li>
-          <li class="subscription-card__item">Доступ 24/24 в будние дни</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Рабочее место
+                </li>
+                <li class="subscription-card__item">
+                  Доступ 24/24 в будние дни
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_dark-blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
 
-      <li
-        class="subscription-card subscription-card_color_white screen-10__item"
-      >
-        <h3 class="subscription-card__title">Стандарт</h3>
+            <li
+              class="subscription-card subscription-card_color_white tabs__subscription-card tabs__panel_2__subscription-card"
+            >
+              <h3 class="subscription-card__title">Стандарт</h3>
 
-        <p class="subscription-card__price">
-          <span class="subscription-card__price-currency">€</span
-          ><span class="subscription-card__price-value">80</span>/мес
-        </p>
+              <p class="subscription-card__price">
+                <span class="subscription-card__price-currency">€</span
+                ><span class="subscription-card__price-value">80</span>/мес
+              </p>
 
-        <ul class="subscription-card__list list">
-          <li class="subscription-card__item">
-            Рабочее место
-          </li>
-          <li class="subscription-card__item">Доступ 24/24 на один месяц</li>
-          <li class="subscription-card__item">Скоростной интернет</li>
-          <li class="subscription-card__item">
-            Доступ на все мероприятия Generator Hub
-          </li>
-          <li class="subscription-card__item">Принтер и сканер</li>
-          <li class="subscription-card__item">
-            Бесплатный чай, кофе<br />
-            и печеньки
-          </li>
-          <li class="subscription-card__item">
-            Бесплатная парковка<br />
-            для велосипедов
-          </li>
-        </ul>
+              <ul class="subscription-card__list list">
+                <li class="subscription-card__item">
+                  Рабочее место
+                </li>
+                <li class="subscription-card__item">
+                  Доступ 24/24 на один месяц
+                </li>
+                <li class="subscription-card__item">Скоростной интернет</li>
+                <li class="subscription-card__item">
+                  Доступ на все мероприятия Generator Hub
+                </li>
+                <li class="subscription-card__item">Принтер и сканер</li>
+                <li class="subscription-card__item">
+                  Бесплатный чай, кофе<br />
+                  и печеньки
+                </li>
+                <li class="subscription-card__item">
+                  Бесплатная парковка<br />
+                  для велосипедов
+                </li>
+              </ul>
 
-        <button
-          class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
-          data-bem='{"button":{}}'
-          data-action="open-modal"
-          role="button"
-          type="submit"
-        >
-          <span class="button__text">Купить сейчас</span>
-        </button>
-      </li>
-      <!-- For desktop screen End-->
-    </ul>
+              <button
+                class="button button_theme_islands button_size_m button_type_submit button__control i-bem button_color_blue button_subscription-card subscription-card__button button_js_inited button__control_js_inited"
+                data-bem='{"button":{}}'
+                data-action="open-modal"
+                role="button"
+                type="submit"
+              >
+                <span class="button__text">Купить сейчас</span>
+              </button>
+            </li>
+          </ul>
+        </li>
+        <!-- Tab panel 2 end-->
+      </ul>
+    </div>
   </div>
 </section>

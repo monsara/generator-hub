@@ -165,12 +165,12 @@
   }
 }
 
-.button_theme_islands.button_screen-10 {
+.button_theme_islands.button_tabs {
   background: #7b8290;
   letter-spacing: 1px;
 }
 
-.button_theme_islands.button_screen-10.button_size_m .button__text {
+.button_theme_islands.button_tabs.button_size_m .button__text {
   margin: 0 18px;
 
   @media (min-width: 1200px) {
@@ -178,22 +178,22 @@
   }
 }
 
-.button_theme_islands.button_screen-10.button_checked {
+.button_theme_islands.button_tabs.button_checked {
   color: $white-color;
   background: #091632;
 }
 
-.button_theme_islands.button_screen-10:before {
+.button_theme_islands.button_tabs:before {
   top: 2px;
   bottom: 2px;
   left: 2px;
 }
 
-.button_theme_islands.button_screen-10.button_hovered:before {
+.button_theme_islands.button_tabs.button_hovered:before {
   background: darken($white-color, 10%);
 }
 
-.button_theme_islands.button_screen-10.button_checked:before {
+.button_theme_islands.button_tabs.button_checked:before {
   background: #091632;
 }
 
@@ -205,7 +205,7 @@
   box-shadow: 0 0 0 1px #fc0, inset 0 0 0 1px #fc0;
 }
 
-.button_theme_islands.button_screen-10.button_size_m {
+.button_theme_islands.button_tabs.button_size_m {
   font-size: 10.29px;
   line-height: 36px;
 
