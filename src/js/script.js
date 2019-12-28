@@ -54,9 +54,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const openModalBtns = document.querySelectorAll(
     '.button[data-action="open-modal"]',
   );
-  // const formSubmitBtn = document.querySelector(
-  //   '.button[data-action="submit-form"]',
-  // );
 
   openModalBtns.forEach(function(item) {
     item.addEventListener('click', handleOpenModal);
@@ -78,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nodeName !== 'BUTTON') return;
 
     handleSubmit();
-    console.log(evt);
   }
 
   function handleSubmit(evt) {
@@ -88,13 +84,16 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function handleCloseModal() {
+    // remove show-madal class from page
     page.classList.remove('show-modal');
+    // remove event listener handleModalEscPress from window
     window.removeEventListener('keydown', handleModalEscPress);
   }
 
   function handleModalEscPress(evt) {
+    // determine the code of the pressed button and
     const key = evt.code;
-
+    // close madal if the escape key was pressed
     if (key !== 'Escape') return;
 
     handleCloseModal();
@@ -118,20 +117,49 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function toggleButtons() {
-    //Remove button_checked class from all buttons
+    // remove button_checked class from all buttons
     tabsBtns.forEach(button => button.classList.remove('button_checked'));
-    //Add button_checked class to current button
+    // add button_checked class to current button
     this.classList.add('button_checked');
   }
 
   function toggleTabs() {
-    //Remove tabs__panel_active class from all tabs
+    // remove tabs__panel_active class from all tabs
     tabsPanels.forEach(tab => tab.classList.remove('tabs__panel_active'));
-    //Find linked tab by date-tab attribute and add tabs__panel_active' class
+    // find linked tab by date-tab attribute and add tabs__panel_active class
     tabs
       .querySelector('.' + this.dataset.tab)
       .classList.add('tabs__panel_active');
+  }
 
-    this.style.display = 'block';
+  /*
+   * Toggle image-gallary
+   **/
+
+  const imageGallary = document.querySelector('.image-gallary ');
+  const imageGallaryFullviewItems = imageGallary.querySelectorAll(
+    '.image-gallary-fullview-item',
+  );
+  const imageGallaryPreviewItems = imageGallary.querySelectorAll(
+    '.image-gallary-preview__item',
+  );
+
+  imageGallaryPreviewItems.forEach(previewItem => {
+    previewItem.addEventListener('click', handleImageGallaryPreviewItemsClick);
+  });
+
+  function handleImageGallaryPreviewItemsClick() {
+    toggleImages.call(this);
+  }
+
+  function toggleImages() {
+    // remove image-gallary-fullview-item_active class from all image-gallary-fullview-item
+    imageGallaryFullviewItems.forEach(fullviewItem =>
+      fullviewItem.classList.remove('image-gallary-fullview-item_active'),
+    );
+    // find linked fullview image by date-tab attribute and add image-gallary-fullview-item_active class
+    imageGallary
+      .querySelector('.' + this.dataset.fullview)
+      .classList.add('image-gallary-fullview-item_active');
   }
 });

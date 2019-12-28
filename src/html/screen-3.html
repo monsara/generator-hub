@@ -32,13 +32,15 @@
       </li>
     </ul>
 
-    <!-- slider -->
-    <div class="slider screen__slider">
-      <ul class="slider__list list">
-        <li class="slider-item slider-item_active slider__item">
-          <picture class="slide__container">
+    <!-- image-gallary -->
+    <div class="image-gallary screen__image-gallary">
+      <ul class="image-gallary__fullview image-gallary-fullview list">
+        <li
+          class="image-gallary-fullview__item image-gallary-fullview-item image-gallary-fullview-item_1 image-gallary-fullview-item_active"
+        >
+          <picture class="image-gallary-fullview-item__container">
             <source
-              class="slider-item__content"
+              class="image-gallary-fullview-item__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/map-desktop.jpg,
@@ -47,7 +49,7 @@
               "
             />
             <img
-              class="image slider-item__image"
+              class="image image-gallary-fullview-item__image"
               src="./images/slides/map-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -59,10 +61,10 @@
           </picture>
         </li>
 
-        <li class="slider-item slider__item">
-          <picture class="slide__container">
+        <li class="image-gallary-fullview__item image-gallary-fullview-item image-gallary-fullview-item_2">
+          <picture class="image-gallary-fullview-item__container">
             <source
-              class="slider-item__content"
+              class="image-gallary-fullview-item__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/phone-booth-desktop.jpg,
@@ -71,7 +73,7 @@
               "
             />
             <img
-              class="image slider-item__image"
+              class="image image-gallary-fullview-item__image"
               src="./images/slides/phone-booth-mobile.jpg"
               alt="Photo of a telephone booth on a mobile phone screen"
               srcset="
@@ -83,10 +85,10 @@
           </picture>
         </li>
 
-        <li class="slider-item slider__item">
-          <picture class="slide__container">
+        <li class="image-gallary-fullview__item image-gallary-fullview-item image-gallary-fullview-item_3">
+          <picture class="image-gallary-fullview-item__container">
             <source
-              class="slider-item__content"
+              class="image-gallary-fullview-item__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/map-desktop.jpg,
@@ -95,7 +97,7 @@
               "
             />
             <img
-              class="image slider-item__image"
+              class="image image-gallary-fullview-item__image"
               src="./images/slides/map-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -107,10 +109,10 @@
           </picture>
         </li>
 
-        <li class="slider-item slider__item">
-          <picture class="slide__container">
+        <li class="image-gallary-fullview__item image-gallary-fullview-item image-gallary-fullview-item_4">
+          <picture class="image-gallary-fullview-item__container">
             <source
-              class="slider-item__content"
+              class="image-gallary-fullview-item__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/phone-booth-desktop.jpg,
@@ -119,7 +121,7 @@
               "
             />
             <img
-              class="image slider-item__image"
+              class="image image-gallary-fullview-item__image"
               src="./images/slides/phone-booth-mobile.jpg"
               alt="Photo of a telephone booth on a mobile phone screen"
               srcset="
@@ -132,12 +134,14 @@
         </li>
       </ul>
 
-      <!-- slider-preview -->
-      <ul class="slider__preview slider-preview slider-preview__list list">
-        <li class="slider-preview__item">
-          <picture class="slider-preview__container">
+      <!-- image-gallary-preview -->
+      <ul
+        class="image-gallary__preview image-gallary-preview list"
+      >
+        <li class="image-gallary-preview__item"  data-fullview="image-gallary-fullview-item_1">
+          <picture class="image-gallary-preview__container">
             <source
-              class="slider-preview__content"
+              class="image-gallary-preview__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/thumbs/map-desktop.jpg,
@@ -146,7 +150,7 @@
               "
             />
             <img
-              class="image slider-preview__image"
+              class="image image-gallary-preview__image"
               src="./images/slides/map-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -158,10 +162,10 @@
           </picture>
         </li>
 
-        <li class="slider-preview__item">
-          <picture class="slider-preview__container">
+        <li class="image-gallary-preview__item" data-fullview="image-gallary-fullview-item_2">
+          <picture class="image-gallary-preview__container">
             <source
-              class="slider-preview__content"
+              class="image-gallary-preview__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/thumbs/phone-booth-desktop.jpg,
@@ -170,7 +174,7 @@
               "
             />
             <img
-              class="image slider-preview__image"
+              class="image image-gallary-preview__image"
               src="./images/slides/phone-booth-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -182,10 +186,10 @@
           </picture>
         </li>
 
-        <li class="slider-preview__item">
-          <picture class="slider-preview__container">
+        <li class="image-gallary-preview__item" data-fullview="image-gallary-fullview-item_3">
+          <picture class="image-gallary-preview__container">
             <source
-              class="slider-preview__content"
+              class="image-gallary-preview__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/thumbs/map-desktop.jpg,
@@ -194,7 +198,7 @@
               "
             />
             <img
-              class="image slider-preview__image"
+              class="image image-gallary-preview__image"
               src="./images/slides/map-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -206,10 +210,10 @@
           </picture>
         </li>
 
-        <li class="slider-preview__item">
-          <picture class="slider-preview__container">
+        <li class="image-gallary-preview__item" data-fullview="image-gallary-fullview-item_4">
+          <picture class="image-gallary-preview__container">
             <source
-              class="slider-preview__content"
+              class="image-gallary-preview__content"
               media="(min-width: 1200px)"
               srcset="
                 ./images/slides/thumbs/phone-booth-desktop.jpg,
@@ -218,7 +222,7 @@
               "
             />
             <img
-              class="image slider-preview__image"
+              class="image image-gallary-preview__image"
               src="./images/slides/phone-booth-mobile.jpg"
               alt="Location on the map"
               srcset="
@@ -230,8 +234,8 @@
           </picture>
         </li>
       </ul>
-      <!-- slider-preview -->
+      <!-- image-gallary-preview -->
     </div>
-    <!-- slider end -->
+    <!-- image-gallary end -->
   </div>
 </section>
