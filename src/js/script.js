@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   /*
-   * Toggle tab buttons and tab panels
+   * Toggle tab panels
    **/
 
   const tabs = document.querySelector('.tabs');
@@ -133,33 +133,35 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   /*
-   * Toggle image-gallary
+   * Toggle gallery images
    **/
 
-  const imageGallary = document.querySelector('.image-gallary ');
-  const imageGallaryFullviewItems = imageGallary.querySelectorAll(
-    '.image-gallary-fullview-item',
-  );
-  const imageGallaryPreviewItems = imageGallary.querySelectorAll(
-    '.image-gallary-preview__item',
+
+  const imageGalleryPreviewItems = document.querySelectorAll(
+    '.image-gallery-preview__item',
   );
 
-  imageGallaryPreviewItems.forEach(previewItem => {
-    previewItem.addEventListener('click', handleImageGallaryPreviewItemsClick);
+  imageGalleryPreviewItems.forEach(item => {
+    item.addEventListener('click', handleImageGalleryPreviewItemsClick);
   });
 
-  function handleImageGallaryPreviewItemsClick() {
-    toggleImages.call(this);
+  function handleImageGalleryPreviewItemsClick() {
+    toogleImages.call(this);
   }
 
-  function toggleImages() {
-    // remove image-gallary-fullview-item_active class from all image-gallary-fullview-item
-    imageGallaryFullviewItems.forEach(fullviewItem =>
-      fullviewItem.classList.remove('image-gallary-fullview-item_active'),
+  function toogleImages() {
+    const gallery = this.closest('.image-gallery');
+    const fullViewItems = gallery.querySelectorAll(
+      '.image-gallery-fullview-item',
     );
-    // find linked fullview image by date-tab attribute and add image-gallary-fullview-item_active class
-    imageGallary
+
+    // remove image-gallery-fullview-item_active class from all image-gallery-fullview-item
+    fullViewItems.forEach(fullviewItem =>
+      fullviewItem.classList.remove('image-gallery-fullview-item_active'),
+    );
+    // find linked fullview image by date-tab attribute and add image-gallery-fullview-item_active class
+    gallery
       .querySelector('.' + this.dataset.fullview)
-      .classList.add('image-gallary-fullview-item_active');
+      .classList.add('image-gallery-fullview-item_active');
   }
 });
