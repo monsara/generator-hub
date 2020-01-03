@@ -25,6 +25,13 @@ of Android/iOS, etc.
 - BEM methodology
 - Sass (placeholders, mixins, variables, SCSS modules)
 
+### JavaScript
+
+- Switching gallery images
+- Switching subscription tables
+- Opening a modal window by pressing order button
+- Smooth scrolling to a screens by pressing a link buttons
+
 ## Librarys
 
 - Bem-components
