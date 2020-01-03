@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // собираем все якоря; устанавливаем время анимации и количество кадров
   const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
     // animationTime = 300,
-    animationTime = 7000,
+    animationTime = 300,
     // framesCount = 20;
-    framesCount = 1200;
+    framesCount = 200;
 
   anchors.forEach(function(item) {
     // каждому якорю присваиваем обработчик события
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (nodeName !== 'BUTTON') return;
 
-    handleSubmit();
+    handleSubmit(nodeName);
   }
 
   function handleSubmit(evt) {
@@ -135,7 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
   /*
    * Toggle gallery images
    **/
-
 
   const imageGalleryPreviewItems = document.querySelectorAll(
     '.image-gallery-preview__item',
